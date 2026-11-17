@@ -1,0 +1,1830 @@
+# AdPilot Help Center — full text for AI reference
+
+This file assembles the approved public articles for convenience. It does not provide an automatic update mechanism or tools to access a store. Each section includes its source Markdown path; the Markdown articles are canonical. Do not use an older extract as proof of current prices or live billing behavior.
+
+
+# Language: en
+
+
+---
+
+## File: docs/en/getting-started/overview.md
+
+# What is AdPilot?
+
+## What AdPilot does
+AdPilot is a Shopify app for planning, estimating and reviewing advertising campaigns for Facebook and Instagram (Meta). It runs inside your Shopify admin.
+
+You can assess how complete your product listings are, estimate possible campaign performance, prepare campaign proposals with AI if your plan allows it, and review a Meta Ads performance report on Pro.
+
+## A typical workflow
+1. Open **AdPilot** from Shopify admin.
+2. Visit **Guide** and set your store targets.
+3. Open **Product Ad Score** to review the product listings.
+4. Run a simulation with a budget, duration, objective, sector and country.
+5. If your plan allows, create an AI campaign proposal and review it before using it.
+6. After you have real performance data, eligible Pro users can upload a CSV report for recommendations.
+
+## Important limitations
+- AdPilot **does not publish, pause or edit Meta ads automatically**. Apply recommendations in Meta Ads Manager yourself.
+- Forecasts are estimates, not commitments to deliver sales, traffic or a particular ROAS.
+- The app cannot replace Shopify or Meta's own billing, account and advertising controls.
+
+Read [Your first steps in AdPilot](docs/en/getting-started/first-steps.md) and [Compare Free, Starter and Pro](docs/en/plans/plans-overview.md) for the next steps.
+
+---
+
+## File: docs/en/getting-started/open-adpilot.md
+
+# Open AdPilot in Shopify
+
+## Install AdPilot (if you have not installed it yet)
+1. Open the [official AdPilot listing on the Shopify App Store](https://apps.shopify.com/adpilot).
+2. Select **Install** and sign in to Shopify if prompted.
+3. Choose the store where you want AdPilot and review the permissions shown by Shopify.
+4. Confirm installation only if you agree with the displayed permissions and terms.
+
+AdPilot's App Store listing is publicly available. Installation completion for a specific store requires that store's Shopify account and was not verified by this guide.
+
+## Before you begin
+AdPilot must already be installed on the Shopify store, and you must have access to that store's administration.
+
+## Open the app
+1. Sign in to your store's **Shopify admin**.
+2. Open the area for installed **Apps**.
+3. Select **AdPilot**.
+4. Use the app navigation to open **Guide**, **Dashboard**, **Product Ad Score**, **Simulator**, **AI Generator**, **Campaigns**, **Optimization** or **Plans**.
+
+## If AdPilot is not listed
+Check that you are in the intended Shopify store and that the app is installed. If AdPilot is not installed, use the verified Shopify App Store listing above. If Shopify reports that you cannot install it, check your store permissions and follow the message shown there.
+
+If the page does not load, follow [Troubleshoot app access](docs/en/troubleshooting/access-issues.md). Never send a password or Shopify access token to support.
+
+---
+
+## File: docs/en/getting-started/first-steps.md
+
+# Your first steps in AdPilot
+
+## Follow the in-app guide
+Open **Guide**. AdPilot presents four activities and displays their completion status:
+
+1. **Set targets**: choose your sector and, optionally, your daily budget, CPA, CPL and ROAS goals.
+2. **Run a simulation**: select advertising assumptions and review the projections.
+3. **Generate an AI campaign**: choose an active product and request a proposal (Starter or Pro).
+4. **Run an optimization round**: after a campaign has real Meta Ads data, Pro users can upload a CSV report.
+
+The Guide shows a progress indicator. It is an introduction, not a required installation wizard. You can visit other areas of the app without finishing it.
+
+## If a step is unavailable
+Some steps require a paid plan. Free users can still set targets, review products and run limited simulations. See [Compare Free, Starter and Pro](docs/en/plans/plans-overview.md).
+
+For the first step, read [Set your store targets](docs/en/dashboard/shop-targets.md).
+
+---
+
+## File: docs/en/getting-started/interface-and-language.md
+
+# Navigation and language
+
+## Main navigation
+The app navigation contains **Guide**, **Home/Dashboard**, **Product Ad Score**, **Ads Simulator**, **AI Generator**, **Campaigns**, **Optimization** and **Plans**.
+
+Use **Dashboard** to review your targets and recent activity. Use **Simulator** for forecasts, **Campaigns** for saved AI proposals, and **Optimization** for analysis history.
+
+## Change language
+1. Open AdPilot.
+2. Find the **EN / IT** language selector in the interface, near the bottom-right corner.
+3. Select **English** or **Italian**.
+4. The app saves your choice for the store.
+
+Only English and Italian are provided by the current interface. Your saved preference takes priority over the initial Shopify locale selection.
+
+## Troubleshooting
+If text does not update, reload the application once. If access fails, use [Troubleshoot app access](docs/en/troubleshooting/access-issues.md).
+
+---
+
+## File: docs/en/dashboard/dashboard.md
+
+# Understand the Dashboard
+
+## Overview
+The **Dashboard** is AdPilot's main overview. Depending on previous activity, it displays your store targets, plan and usage, progress through the Guide, recent campaign information and a recommended next action.
+
+## What to do
+1. Open **Home/Dashboard**.
+2. Check whether your store targets are set.
+3. Review your current plan and the available usage indicators.
+4. Follow the recommended next action or use the navigation to open another feature.
+
+The Dashboard can show different information for a new store and for a store that has already saved campaigns or optimization rounds. A missing recent campaign is not, by itself, an error.
+
+## Related guides
+Read [Set your store targets](docs/en/dashboard/shop-targets.md), [Compare Free, Starter and Pro](docs/en/plans/plans-overview.md) and [Your first steps in AdPilot](docs/en/getting-started/first-steps.md).
+
+---
+
+## File: docs/en/dashboard/shop-targets.md
+
+# Set your store targets
+
+## What store targets are
+Targets are reference values for planning. They may include **sector**, **daily advertising budget**, **CPA goal**, **CPL goal** and **ROAS goal**. CPA means cost per acquisition; CPL means cost per lead; ROAS compares attributed revenue with ad spending.
+
+## Set or change targets
+1. Open the **Dashboard**.
+2. Find the targets section and choose **Set targets** or **Edit targets**.
+3. Select the sector; you may also specify a more detailed niche.
+4. Add the financial goals that are meaningful for your store.
+5. Save the targets.
+
+Not every field must be filled in. Targets guide planning and AI suggestions; they are not promises or guaranteed outcomes.
+
+## If a value is rejected
+Check that numeric goals are non-negative, within the allowed input range and use a valid number format. Avoid pasting symbols or long text into numeric fields.
+
+See [Advertising glossary](docs/en/glossary/glossary.md) for metric definitions.
+
+---
+
+## File: docs/en/products/product-ad-score.md
+
+# Review products with Product Ad Score
+
+## What the score means
+**Product Ad Score** evaluates the information available in a Shopify product listing, using criteria such as title, description, images, tags, pricing information and completeness. The total is shown on a scale from **0 to 100**.
+
+This is a listing-quality indicator, **not a prediction of actual advertising revenue**.
+
+## How to review your products
+1. Open **Product Ad Score** in AdPilot.
+2. Review the list of products and the overall score indicators.
+3. Open or inspect a product's score breakdown, if shown.
+4. Improve product content in Shopify if appropriate.
+5. Return to AdPilot to see the updated evaluation.
+
+AdPilot reads product information; it does not make edits to the Shopify catalog. Scores are recalculated when you open the page.
+
+## Plan limits
+Free shows up to **5** products, Starter up to **50**. Pro has no plan-coded scoring quota, but the current page retrieves at most **250 products per load**; it does not expose pagination beyond this. Read [Compare Free, Starter and Pro](docs/en/plans/plans-overview.md) for other limits.
+
+---
+
+## File: docs/en/products/interpret-product-score.md
+
+# Interpret a product score
+
+## Score ranges
+AdPilot uses four score bands: **80–100 Excellent**, **60–79 Good**, **40–59 Needs improvement**, and **0–39 Poor**.
+
+The evaluation is based on six aspects: **title (up to 20 points)**, **description (25)**, **images (20)**, **tags (15)**, **pricing (15)** and **completeness (5)**.
+
+## How to use the result
+1. Start with products with lower scores.
+2. Check whether the title clearly describes the product.
+3. Make the description useful and informative.
+4. Review image coverage and relevant tags.
+5. Check the listed price, vendor and availability status.
+6. Make edits in Shopify and re-open AdPilot to check the score again.
+
+A higher score does not guarantee approval by Meta, conversions or improved sales. Prioritize accurate information rather than adding irrelevant text or tags solely to gain points.
+
+See [Review products with Product Ad Score](docs/en/products/product-ad-score.md).
+
+---
+
+## File: docs/en/simulator/create-simulation.md
+
+# Create an advertising simulation
+
+## Before you begin
+A simulation is a forecast based on assumptions, not an actual campaign. You do not need to connect a Meta ad account to run it.
+
+## Create a simulation
+1. Open **Ads Simulator**.
+2. Choose **New simulation**.
+3. Optionally enter a name.
+4. Enter the **daily budget** as a whole number from **1 to 10,000** in the app's displayed currency.
+5. Enter the **duration** in whole days; the current form offers **1–90 days**.
+6. Choose the objective, business sector and country.
+7. Select **Run simulation**.
+8. Review the projected metrics and the saved result.
+
+## Monthly allowances
+Free: **3** simulations; Starter: **30**; Pro: no plan-coded monthly maximum. The allowance follows a calendar-month count, not necessarily your Shopify billing date.
+
+## Important
+The simulation does not spend money or create an ad in Meta. See [Read simulation results](docs/en/simulator/simulation-results.md) and [Fix simulation and quota errors](docs/en/troubleshooting/simulation-errors.md).
+
+---
+
+## File: docs/en/simulator/simulation-results.md
+
+# Read simulation results
+
+## What the results show
+After a simulation, AdPilot estimates campaign spend and advertising metrics such as **impressions**, **reach**, **clicks**, **CTR**, **CPC** and **CPM**. Starter and Pro also have access to advanced metrics such as **CPA**, estimated **revenue** and **ROAS**.
+
+## Reading an estimate
+- **Impressions**: how many times an ad might be shown; the same person may see it several times.
+- **Reach**: approximate number of distinct people reached.
+- **CTR**: share of impressions that produce clicks.
+- **CPC**: estimated cost per click.
+- **CPA**: estimated cost per acquisition.
+- **ROAS**: estimated attributed revenue divided by advertising spend.
+
+## Example
+A projected ROAS of **2×** suggests an estimated 2 units of attributed revenue for every 1 unit of advertising spend, *not* 2 units of profit. Product costs and operating costs are separate.
+
+**Do not treat forecasts as guarantees.** The estimate is not based on results from an active Meta campaign. See [Advertising glossary](docs/en/glossary/glossary.md).
+
+---
+
+## File: docs/en/simulator/simulation-history.md
+
+# View and delete saved simulations
+
+## View saved simulations
+1. Open **Ads Simulator**.
+2. Select a simulation in the history to see its saved parameters and results.
+3. In the detail view, use the available delete option only if you no longer need the record.
+
+The Free history shows up to the three most recent entries. Paid plans use a paginated history.
+
+## Deletion and limits
+Deleting a simulation removes it from the normal history view. **It does not return a simulation to the current month's allowance.** That allowance counts simulations created during the month, including deleted ones.
+
+Make sure you have saved any information you need before confirming deletion. See [Create an advertising simulation](docs/en/simulator/create-simulation.md) for monthly quotas.
+
+---
+
+## File: docs/en/ai-generator/ai-generator-access.md
+
+# AI Generator access and credits
+
+## Who can use the generator?
+- **Free:** AI Generator unavailable.
+- **Starter:** up to **2 included AI generations per calendar month**.
+- **Pro:** up to **20 included AI generations per calendar month**, plus eligible extra credits.
+
+An AI generation produces a campaign proposal; it does not publish it to Meta. The app uses the selected Shopify product and your campaign inputs to prepare the proposal.
+
+## Check your access
+1. Open **Plans** to see your active plan.
+2. Open **AI Generator**.
+3. If blocked or out of credits, review your plan allowance before continuing.
+
+Extra generation purchases are offered to Pro users; see [Buy extra AI generation credits](docs/en/plans/extra-generations.md). Credits and displayed availability may depend on successful Shopify purchase confirmation.
+
+See [Generate an AI campaign proposal](docs/en/ai-generator/create-ai-campaign.md) for the complete workflow.
+
+---
+
+## File: docs/en/ai-generator/create-ai-campaign.md
+
+# Generate an AI campaign proposal
+
+## Requirements
+You need **Starter or Pro**, available AI generations and at least one active Shopify product.
+
+## Create the proposal
+1. Open **AI Generator**.
+2. Select an active product from the product menu.
+3. Select **sector**, **country** and **advertising objective**.
+4. Optionally enter a more specific business niche.
+5. Enter a daily budget as a whole number between **1 and 10,000** and a duration as a whole number in the allowed range.
+6. Select **Generate** and review the result after the request finishes.
+7. Open the saved campaign detail if you need to see it again.
+
+The generation may take some time. Do not repeatedly submit requests while one is running.
+
+## Before using the output
+Check the proposed audience, claims, text, budget and objectives for accuracy and compliance with Meta's policies. You must create the actual campaign in Meta Ads Manager manually.
+
+See [Understand the generated campaign](docs/en/ai-generator/review-ai-output.md) and [Fix AI Generator issues](docs/en/troubleshooting/ai-errors.md).
+
+---
+
+## File: docs/en/ai-generator/review-ai-output.md
+
+# Understand the generated campaign
+
+## What the proposal contains
+The generated plan can include campaign structure, suggested ad sets, audiences, creative ideas, advertising copy, budget allocation and performance indicators.
+
+## Review checklist
+1. Confirm that the product and business sector are correct.
+2. Compare the suggested budget with what you can actually spend.
+3. Verify every claim about the product; do not publish invented features, discounts or guarantees.
+4. Check whether the proposed targeting is appropriate for your audience and advertising policies.
+5. Adjust text and creative ideas before building ads in Meta Ads Manager.
+6. Monitor actual performance independently once ads run.
+
+**AI content is a proposal**, not an approved or launched Meta campaign. The app does not grant permissions to publish Meta ads automatically.
+
+See [Find and review saved campaigns](docs/en/campaigns/saved-campaigns.md) and [How Meta Ads Optimization works](docs/en/optimizer/optimizer-overview.md).
+
+---
+
+## File: docs/en/campaigns/saved-campaigns.md
+
+# Find and review saved campaigns
+
+## Find a campaign
+1. Open **Campaigns**.
+2. Select the saved campaign you want to inspect.
+3. Review the product, duration, daily budget and proposed campaign plan.
+4. If the option is available for your plan and timing, open **Start optimization** to analyze actual performance data.
+
+The Campaigns area lists saved AI-generated proposals; it is **not** a list of live campaigns fetched from Meta Ads Manager.
+
+## If the list is empty
+Create your first AI proposal using [Generate an AI campaign proposal](docs/en/ai-generator/create-ai-campaign.md). Free users cannot generate new proposals with the current plan.
+
+If you do not need a saved proposal, read [Delete a saved campaign](docs/en/campaigns/delete-campaigns.md).
+
+---
+
+## File: docs/en/campaigns/delete-campaigns.md
+
+# Delete a saved campaign
+
+## Delete a proposal
+1. Open **Campaigns** and select a saved campaign.
+2. Select the available **Delete** action in its detail page.
+3. Read the confirmation carefully before confirming.
+
+Deleting a campaign in AdPilot removes the saved proposal from its ordinary view. **It does not delete or pause anything in Meta Ads Manager**, since AdPilot does not operate live ads.
+
+Do not assume deletion restores used AI generation credits. If you still need information from the proposal, keep a copy before deleting it.
+
+For privacy questions, see [Data, permissions and privacy](docs/en/privacy/privacy-and-data.md).
+
+---
+
+## File: docs/en/optimizer/optimizer-overview.md
+
+# How Meta Ads Optimization works
+
+## What the Optimizer does
+The **Optimization** feature analyzes advertising performance exported from Meta Ads Manager. It summarizes results and prepares suggested actions for a saved AdPilot AI campaign.
+
+## Requirements
+- An active **Pro** plan to create optimization rounds.
+- A previously saved AI campaign proposal.
+- A compatible **UTF-8 CSV** report exported from Meta Ads Manager.
+- The expected **72-hour interval** between rounds on the same campaign.
+
+## Workflow
+1. Open **Campaigns** and select a campaign.
+2. Start an optimization when the button is available.
+3. Export a Meta Ads report with the required columns.
+4. Enter the analyzed period and upload the CSV.
+5. Review the recommendations and apply any chosen changes manually in Meta.
+
+**No Meta account connection or automatic ad editing is provided by this flow.** Results depend on the data in the uploaded report, so review its accuracy before importing.
+
+Read [Export a Meta Ads report](docs/en/optimizer/meta-csv-export.md), [CSV format and required columns](docs/en/optimizer/csv-requirements.md), [Read optimization recommendations](docs/en/optimizer/optimizer-results.md).
+
+---
+
+## File: docs/en/optimizer/meta-csv-export.md
+
+# Export a Meta Ads report
+
+## Prepare the report in Meta
+Meta Ads Manager may change its interface. The following is the workflow described by AdPilot's current in-app instructions:
+
+1. Open **Meta Ads Manager** and go to the reporting area (Reports / Custom report).
+2. Choose the reporting date range; AdPilot suggests recent data such as **7–30 days**.
+3. Select the campaign you want to analyze and use the **Ad set** level; prepare **one campaign per file**.
+4. Include the metrics in [CSV format and required columns](docs/en/optimizer/csv-requirements.md), especially **purchase value** (not purchase ROAS).
+5. Check whether the reporting layout actually provides **Audience/Interest** or a compatible column. AdPilot requires it, but Meta may not expose that field in its standard report; do not fabricate or mislabel a substitute.
+6. Export as **CSV** (not Excel `.xlsx`) and check the downloaded headers and numeric format.
+7. Keep the exported file on your device until you upload it to AdPilot.
+
+If Meta offers different report labels, compare the exported CSV headers with [CSV format and required columns](docs/en/optimizer/csv-requirements.md). The audience/interest field is mandatory for the current import process. If the authentic Meta export lacks it, request guidance from AdPilot support rather than guessing a substitute.
+
+Do not send private advertising reports to a public chat. See [Upload a CSV to the Optimizer](docs/en/optimizer/upload-csv.md).
+
+---
+
+## File: docs/en/optimizer/csv-requirements.md
+
+# CSV format and required columns
+
+## File requirements
+The Optimizer accepts a **`.csv`** file, **UTF-8** text (with or without UTF-8 BOM), **comma** or **semicolon** as delimiter, a size from **1 KiB to 10 MiB**, no more than **50,000 data rows** and no more than **200 columns**.
+
+Files such as `.xlsx`, UTF-16 files or files with unsupported separators cannot be imported. CSV reports containing no usable data are rejected.
+
+## Required columns
+Your report needs all 13 data categories below; AdPilot recognizes several English and Italian header aliases:
+
+| Data | Typical English header | Typical Italian header |
+| --- | --- | --- |
+| Campaign | Campaign name | Nome della campagna |
+| Ad set | Ad set name | Nome del gruppo di inserzioni |
+| Audience / interest | Audience/Interest | Pubblico/Interesse |
+| Spend | Amount spent | Importo speso |
+| Impressions | Impressions | Impression |
+| Reach | Reach | Copertura |
+| Frequency | Frequency | Frequenza |
+| Clicks | Link clicks | Clic sul link |
+| Click-through rate | CTR | CTR |
+| Cost per click | CPC | CPC |
+| Cost per thousand | CPM | CPM |
+| Purchases | Purchases | Acquisti |
+| Purchase value | Purchase value | Valore conversione acquisti |
+
+Include both **Purchases** and **Purchase value** as distinct fields. If AdPilot reports missing columns, follow [Fix CSV import errors](docs/en/troubleshooting/csv-errors.md) and inspect the original headers.
+
+## Prepare reliable data
+- Export **one campaign per CSV file**. Avoid combining several campaigns, especially when different campaigns reuse the same ad set name.
+- Use plain numeric amounts: for example **1234.56** (comma-delimited CSV) or **1234,56** (semicolon-delimited CSV). Avoid thousands separators such as `1,234.56` or `1.234,56`, which can be interpreted incorrectly.
+- Keep descriptions and labels on a single line where possible; line breaks inside quoted CSV cells may not import reliably.
+- Use the actual **purchase conversion value**, **not purchase ROAS**, in the purchase-value column. These are different metrics.
+- Keep one consistent reporting period and currency, and compare the resulting totals with Meta before acting on AI recommendations.
+
+The **Audience/Interest** field is mandatory for this version of the importer. Meta's standard reports may not offer an equivalent field. **Do not rename an unrelated field or invent targeting values** just to satisfy the importer. If your authentic report lacks the field, ask AdPilot support about a compatible report instead.
+
+---
+
+## File: docs/en/optimizer/upload-csv.md
+
+# Upload a CSV to the Optimizer
+
+## Before uploading
+You need **Pro**, a saved campaign, a compatible CSV, and an optimization option available for that campaign.
+
+## Upload steps
+1. Open **Campaigns** and select the campaign.
+2. Select **Start optimization** if available.
+3. Review the export instructions and required columns.
+4. Set the **Period analyzed (days)**; the current form offers **1–90 days** and defaults to 7.
+5. Choose the `.csv` report from your device.
+6. Select **Analyze** and review the resulting report.
+
+Do not leave the page or send repeated requests while analysis is processing. If the upload is rejected, use [Fix CSV import errors](docs/en/troubleshooting/csv-errors.md) and [CSV format and required columns](docs/en/optimizer/csv-requirements.md).
+
+## Privacy
+Check the report for sensitive data before uploading. The optimization request processes data from your report to generate recommendations. Do not send reports or personal data to chat support.
+
+---
+
+## File: docs/en/optimizer/optimizer-results.md
+
+# Read optimization recommendations
+
+## What the analysis is
+AdPilot reviews uploaded performance data and produces a saved report with findings and suggested actions for ad sets and audiences. It can suggest maintaining, increasing, reducing or stopping a part of a proposed strategy.
+
+## Review the report
+1. Open **Optimization** and select a saved report, or follow the result page after an upload.
+2. Check the period, uploaded report name and the campaign involved.
+3. Review performance totals and individual recommendations.
+4. Compare any suggestion with current data and your business targets.
+5. Apply changes **manually in Meta Ads Manager** if you agree.
+
+## Limitations
+- AI recommendations can be imperfect and are not guarantees.
+- AdPilot does not know subsequent live results unless you provide new performance data.
+- The saved report does **not** itself change a Meta campaign.
+
+For repeat analyses, see [When can I optimize again?](docs/en/optimizer/optimization-cooldown.md).
+
+---
+
+## File: docs/en/optimizer/optimization-cooldown.md
+
+# When can I optimize again?
+
+## Waiting period
+AdPilot's normal interface requires at least **72 hours** between optimization rounds for the **same saved campaign**. On the campaign detail page, the Start optimization action can show a waiting message until the next window.
+
+## What to do
+1. Open **Campaigns** and select the campaign.
+2. Check whether the optimization action is available.
+3. If a waiting period is shown, review the previous report and continue monitoring performance in Meta Ads Manager.
+4. Return once the interface indicates that a new optimization is available.
+
+The wait concerns the same campaign; it is not a promise about how often Meta delivers updated reporting data. A public assistant cannot inspect your last round's timestamp or bypass a restriction.
+
+For other issues, see [Fix Optimizer access and report issues](docs/en/troubleshooting/optimizer-errors.md).
+
+---
+
+## File: docs/en/plans/plans-overview.md
+
+# Compare Free, Starter and Pro
+
+## Plans and allowances
+| Feature | Free | Starter | Pro |
+| --- | --- | --- | --- |
+| Products shown for scoring | Up to 5 | Up to 50 | Up to 250 per page load* |
+| Simulations per calendar month | 3 | 30 | No plan-coded limit |
+| Advanced simulation metrics | No | Yes | Yes |
+| AI campaign generations per calendar month | 0 | 2 | 20 |
+| Create CSV optimization analyses | No | No | Yes |
+| Buy additional AI generations | No | No | Yes |
+
+*The Pro scoring configuration has no quota, but the current product screen fetches at most 250 items in one load without more pages.*
+
+## Check your current plan
+1. Open **Plans**.
+2. Identify the plan marked as current.
+3. Review the included features and monthly usage information.
+
+## Published prices
+As of **17 November 2026**, the [official Shopify App Store listing](https://apps.shopify.com/adpilot) shows **Starter at $19/month or $190/year** and **Pro at $39/month or $390/year**, billed in **USD**. Free is listed as free. Prices can change: review the actual checkout amount, currency and terms before confirming. See [Shopify billing: what to check](docs/en/plans/billing-questions.md).
+
+CSV **export** is advertised in some plan text but is not verified as a usable app function; this guide documents the supported Meta CSV **import** only.
+
+See [Change or cancel a plan](docs/en/plans/change-plan.md) and [Shopify billing: what to check](docs/en/plans/billing-questions.md).
+
+---
+
+## File: docs/en/plans/change-plan.md
+
+# Change or cancel a plan
+
+## Change your subscription
+1. Open **Plans** in AdPilot.
+2. Review the available Free, Starter and Pro options.
+3. For a paid plan, choose the relevant plan and monthly or annual billing option.
+4. Follow the Shopify confirmation screen outside the embedded app if prompted.
+5. Read the price, **currency**, billing period and replacement terms before approving.
+6. Return to AdPilot to check the active plan.
+
+## Downgrades and cancellation
+Changing from Pro to Starter is designed to take effect at the next billing cycle. Using **Cancel** to return from a paid plan to Free is a different operation: it requests cancellation and may change access immediately. Do **not** assume every downgrade waits until the end of the term.
+
+## If checkout looks unexpected
+Stop before confirming a charge. Check the currently displayed Shopify terms and contact official support if the plan, currency, price or billing status does not match what you expected.
+
+See [Shopify billing: what to check](docs/en/plans/billing-questions.md) and [Troubleshoot billing and missing credits](docs/en/troubleshooting/billing-errors.md).
+
+---
+
+## File: docs/en/plans/extra-generations.md
+
+# Buy extra AI generation credits
+
+## Availability
+The **Pro** plan offers one-time purchases of additional AI generations. The purchase form accepts quantities from **5 to 1,000** units per purchase.
+
+The extra credits are intended for the AI Campaign Generator. Accepted purchased credits are available in addition to included monthly generations and are consumed before the included monthly allowance.
+
+## Purchase safely
+1. Open **Plans** with Pro active.
+2. Find the additional generations section.
+3. Select the quantity you need.
+4. Continue to Shopify checkout.
+5. Verify the **final amount, currency and terms** before approving payment.
+6. Return to AdPilot and check the available generations.
+
+## Important
+Do not assume the purchase succeeded until Shopify confirms it. If the purchase or available balance appears incorrect, avoid repeating the payment immediately; consult [Troubleshoot billing and missing credits](docs/en/troubleshooting/billing-errors.md). No definitive unit price is quoted here until the currency configuration has been verified.
+
+---
+
+## File: docs/en/plans/billing-questions.md
+
+# Shopify billing: what to check
+
+## How billing works
+Paid AdPilot plans and extra-generation purchases use **Shopify billing confirmation**. The Plans page offers monthly and annual options for paid subscriptions.
+
+## Before you approve
+1. Confirm the plan or generation quantity.
+2. Read the amount and currency shown by **Shopify**.
+3. Check the billing interval and tax information, where displayed.
+4. Review the consequences of replacing or cancelling an existing subscription.
+5. Approve only if the details match your expectations.
+
+## Prices displayed on Shopify App Store (checked 17 November 2026)
+| Plan | Monthly | Annual |
+| --- | ---: | ---: |
+| Free | Free | — |
+| Starter | **USD $19/month** | **USD $190/year** |
+| Pro | **USD $39/month** | **USD $390/year** |
+
+Source: [AdPilot's official Shopify App Store listing](https://apps.shopify.com/adpilot), which states that charges are billed in **USD**. These are the *publicly listed* prices on the review date, **not an inspected checkout for your store**. Shopify's confirmation screen is authoritative for the amount, currency, taxes and terms you are approving.
+
+Additional AI generation packages have a separate one-time purchase flow on eligible plans. Check their displayed total and currency at Shopify confirmation before approving; this guide does not assume your purchase was completed.
+
+If a charge or currency is unexpected, stop before approval and use the official support channel linked from AdPilot's App Store listing or Shopify admin.
+
+Never share complete card details, Shopify credentials or billing tokens in a public chat. See [Change or cancel a plan](docs/en/plans/change-plan.md).
+
+---
+
+## File: docs/en/troubleshooting/access-issues.md
+
+# Troubleshoot app access
+
+## If the app is missing or does not open
+1. Confirm that you are signed in to the **correct Shopify store**.
+2. Check whether AdPilot appears among the installed apps.
+3. Reopen AdPilot from Shopify admin, rather than using an old bookmarked application URL.
+4. If the problem looks temporary, refresh once.
+5. Note the exact on-screen message, approximate time and affected page.
+
+Access depends on Shopify authentication and the installation in your store. This guide cannot verify your account or change permissions remotely.
+
+## When to contact support
+If the issue persists, send the official support channel the error message and a brief description **without passwords, access tokens, private data or payment details**. If an `ERR-XXXXXX` reference appears, include it. See [What does ERR-XXXXXX mean?](docs/en/troubleshooting/error-reference.md).
+
+---
+
+## File: docs/en/troubleshooting/csv-errors.md
+
+# Fix CSV import errors
+
+## Quick checks
+If the Optimizer rejects your report, first check the file format in [CSV format and required columns](docs/en/optimizer/csv-requirements.md). The exact error message can help identify the cause.
+
+| Message or symptom | What to check |
+| --- | --- |
+| No file selected | Select a CSV before submitting. |
+| Must be `.csv` | Export CSV, not `.xlsx` or a renamed spreadsheet. |
+| Too small / empty | Export a report with actual data rows; minimum 1 KiB. |
+| Too large | Reduce the date range; maximum 10 MiB. |
+| Unsupported encoding | Re-export or save as UTF-8, not UTF-16. |
+| Unsupported delimiter | Use comma or semicolon. |
+| Missing columns | Compare report headers with the 13 required data categories. |
+| Too many rows / columns | Maximum 50,000 data rows and 200 columns. |
+| No valid rows | Verify the report contains usable data, not just a header. |
+| Not a valid text CSV | Export a clean CSV directly from Meta Ads Manager. |
+
+## If the import succeeds but figures look wrong
+1. Compare total spend and purchases in AdPilot with the same period in Meta Ads Manager.
+2. Re-export **one campaign per file**, with simple numeric formatting and without thousands separators.
+3. Ensure that **purchase value** is not a ROAS column and that interest/audience values are genuine.
+4. If the numbers still differ, do **not** act on the recommendations; ask AdPilot support to review the format without posting your private report publicly.
+
+## Recommended recovery
+1. Re-export the original report using the required columns.
+2. Open it in a text editor only if necessary to check encoding and delimiters.
+3. Upload again **once** after correcting the issue.
+4. If the same message persists, note it for support rather than sharing the raw file in chat.
+
+For the step-by-step import workflow, read [Upload a CSV to the Optimizer](docs/en/optimizer/upload-csv.md).
+
+---
+
+## File: docs/en/troubleshooting/simulation-errors.md
+
+# Fix simulation and quota errors
+
+## If a parameter is rejected
+Check that the **daily budget** is a whole number from **1 to 10,000**, that the **duration** is a whole number in the range displayed by the form, and that you selected an available **objective**, **sector** and **country**.
+
+## If the monthly limit is reached
+Free includes **3** simulations per calendar month; Starter includes **30**. Pro has no plan-coded limit. The quota is based on simulations created during the calendar month, and **deleting a simulation does not restore a slot**.
+
+## What to do
+1. Review your plan on **Plans**.
+2. Check the usage shown on the Dashboard or Simulator.
+3. If the quota is exhausted, use the next calendar month's allowance or review the available upgrade options.
+4. Avoid repeatedly submitting a form that clearly reports a limit.
+
+See [Create an advertising simulation](docs/en/simulator/create-simulation.md) and [View and delete saved simulations](docs/en/simulator/simulation-history.md).
+
+---
+
+## File: docs/en/troubleshooting/ai-errors.md
+
+# Fix AI Generator issues
+
+## Common reasons a request fails
+- **Plan restriction:** Free does not include AI Generator.
+- **No available generations:** your included monthly allowance and any eligible extra credits have been used.
+- **Invalid product:** choose an active product again.
+- **Invalid inputs:** check country, sector, objective, daily budget and duration.
+- **Unexpected error:** a service or generation problem may have occurred.
+
+## Safe troubleshooting
+1. Open **Plans** and verify your current plan and available generations.
+2. Return to **AI Generator** and reselect the product and options.
+3. Check numeric fields for whole numbers in the permitted ranges.
+4. If an unexpected error appears, note the reference code and approximate time.
+5. Avoid repeated submissions while a generation is still running.
+
+The app attempts to return a consumed credit if generation fails, but recovery is not a guarantee for every failure. For discrepancies, contact official support using [What does ERR-XXXXXX mean?](docs/en/troubleshooting/error-reference.md); never provide API credentials or private customer data.
+
+---
+
+## File: docs/en/troubleshooting/optimizer-errors.md
+
+# Fix Optimizer access and report issues
+
+## If optimization is unavailable
+1. Confirm that your active plan is **Pro**; Free and Starter cannot create new optimization rounds.
+2. Open **Campaigns** and select a saved AI proposal. Optimization starts from a saved campaign, not from an arbitrary report on its own.
+3. Check whether a **72-hour waiting period** is shown for that campaign.
+4. Verify your CSV against [CSV format and required columns](docs/en/optimizer/csv-requirements.md).
+5. If processing fails with a reference code, record it and the approximate time.
+
+## If recommendations look wrong
+Compare spend, purchases, purchase value, date range and campaign/ad-set grouping with the original Meta Ads report. Do not automatically apply an AI suggestion that conflicts with your real performance or advertising rules.
+
+See [When can I optimize again?](docs/en/optimizer/optimization-cooldown.md), [Fix CSV import errors](docs/en/troubleshooting/csv-errors.md) and [What does ERR-XXXXXX mean?](docs/en/troubleshooting/error-reference.md).
+
+---
+
+## File: docs/en/troubleshooting/billing-errors.md
+
+# Troubleshoot billing and missing credits
+
+## Before taking action
+If Shopify checkout shows an unexpected **amount, currency or billing period**, do not approve the charge until you understand the terms.
+
+## If payment was already attempted
+1. Open the relevant Shopify billing information in your store admin.
+2. Return to AdPilot **Plans** and review the current plan or credit balance.
+3. Do not repeat the purchase merely because the screen has not updated.
+4. Record the approximate time, plan or credit quantity, and the exact error/reference message.
+5. Use the official support contact listed in AdPilot's current public information to request a review.
+
+A public ChatGPT assistant cannot see invoices, card information, subscription status, purchases or application logs. **Never provide payment-card details, passwords or Shopify tokens in chat.**
+
+See [Shopify billing: what to check](docs/en/plans/billing-questions.md) and [What does ERR-XXXXXX mean?](docs/en/troubleshooting/error-reference.md).
+
+---
+
+## File: docs/en/troubleshooting/error-reference.md
+
+# What does ERR-XXXXXX mean?
+
+## Meaning of the code
+An `ERR-XXXXXX` code is a **reference to an application error event**, not a public explanation of the underlying cause. Its presence does not prove that the problem is caused by a particular setting or by Shopify.
+
+## What to record
+1. Copy the exact reference code.
+2. Note the feature you were using and what you clicked.
+3. Record the approximate date/time and the text visible on screen.
+4. Contact the current official AdPilot support channel with these details if the issue persists.
+
+A public assistant has **no access to private application logs** and cannot retrieve the event or determine its cause from the code alone.
+
+Do **not** send passwords, access tokens, secret keys, customer information, full private CSV reports or payment-card details. Do not repeat paid or credit-consuming actions just to reproduce an error.
+
+---
+
+## File: docs/en/privacy/privacy-and-data.md
+
+# Data, permissions and privacy
+
+## Shopify access
+AdPilot requests permission to **read product information** from the Shopify catalog. This is not a request to edit your Shopify products.
+
+The app uses store targets and saved simulation/campaign information to provide its features. For CSV optimization, you provide a report exported from Meta Ads Manager; this workflow does not connect directly to your Meta account.
+
+## Before sharing information
+- Review imported reports for unnecessary private or personal data.
+- Do not send credentials, API keys, Shopify tokens, full private CSVs or customer records to a public AI assistant.
+- For legal details about data processing, retention and your rights, consult the **current official AdPilot Privacy Policy** rather than relying solely on this short guide.
+
+A documentation-only ChatGPT or Claude assistant cannot read your store, see your campaigns, look up your billing details or act on your behalf.
+
+Read [Uninstalling AdPilot and data requests](docs/en/privacy/uninstall-and-data.md) for removal questions.
+
+---
+
+## File: docs/en/privacy/uninstall-and-data.md
+
+# Uninstalling AdPilot and data requests
+
+## Uninstall the app
+App installation and removal are managed through your **Shopify admin**. If you decide to remove AdPilot, use Shopify's installed-app management interface and follow the confirmations shown there.
+
+Removing an app is not the same as deleting an individual saved simulation or campaign. AdPilot processes separate Shopify uninstall and store-data removal events.
+
+## When is store data deleted?
+Shopify documents that the **shop/redact** privacy event is sent **no earlier than 48 hours after uninstalling** an app (and is not sent if the app is reinstalled before then). AdPilot is designed to delete its store-associated records when it receives and successfully processes that event. **This does not guarantee erasure at the moment of uninstall or exactly 48 hours later.**
+
+For individual saved items, removal from the interface and underlying data retention are different; consult the current AdPilot Privacy Policy for the published retention commitment and ask the official privacy contact for store-specific confirmation.
+
+Official reference: [Shopify privacy and webhooks](https://shopify.dev/docs/apps/build/compliance/privacy-law-compliance).
+
+## Data or privacy questions
+1. Review AdPilot's **current official Privacy Policy**.
+2. Use the contact and instructions published there for relevant access or deletion requests.
+3. Identify your store only through the official support/privacy channel; do not post private account data in a public AI chat.
+
+Do not assume that every saved record is erased at the exact instant the app is uninstalled. If you need confirmation for a specific store, contact the official privacy channel.
+
+---
+
+## File: docs/en/faq/faq-general.md
+
+# Frequently asked questions: getting started
+
+## Does AdPilot launch my Facebook or Instagram ads?
+No. AdPilot produces estimates, plans and recommendations, not live campaign changes. See [What is AdPilot?](docs/en/getting-started/overview.md).
+
+## Can I use it without a Meta connection?
+Yes for product evaluation, simulation and generating an AI proposal on eligible plans. Optimization uses a CSV that you export from Meta Ads Manager. See [How Meta Ads Optimization works](docs/en/optimizer/optimizer-overview.md).
+
+## Does AdPilot modify my Shopify products?
+The app requests read access to products; edit your listing in Shopify yourself. See [Review products with Product Ad Score](docs/en/products/product-ad-score.md).
+
+## Which plan includes AI Generator?
+Starter and Pro. Free does not include AI campaign generation. See [AI Generator access and credits](docs/en/ai-generator/ai-generator-access.md).
+
+## Can I change the language?
+Yes, select EN or IT inside AdPilot. See [Navigation and language](docs/en/getting-started/interface-and-language.md).
+
+## Where is the official price?
+Review the live amount, currency and conditions in Shopify confirmation before subscribing. See [Shopify billing: what to check](docs/en/plans/billing-questions.md).
+
+---
+
+## File: docs/en/faq/faq-simulator-ai.md
+
+# Frequently asked questions: Simulator and AI
+
+## Does a simulation spend my advertising budget?
+No. A simulation estimates outcomes; it does not create ads or charge Meta ad spend. See [Create an advertising simulation](docs/en/simulator/create-simulation.md).
+
+## Is estimated ROAS a guaranteed return?
+No. It is an estimate based on model assumptions, not verified profit or future revenue. See [Read simulation results](docs/en/simulator/simulation-results.md).
+
+## Why can I not create another simulation?
+You may have reached the monthly quota for Free or Starter. Deleting a previous simulation does not restore quota. See [Fix simulation and quota errors](docs/en/troubleshooting/simulation-errors.md).
+
+## What if the AI campaign contains a wrong claim?
+Review and correct the proposed content before using it manually in Meta Ads Manager. See [Understand the generated campaign](docs/en/ai-generator/review-ai-output.md).
+
+## If AI generation fails, do I automatically recover a credit?
+The app attempts credit restoration on failures, but support may be needed for discrepancies. See [Fix AI Generator issues](docs/en/troubleshooting/ai-errors.md).
+
+---
+
+## File: docs/en/faq/faq-optimizer.md
+
+# Frequently asked questions: Optimizer and CSV
+
+## Why is Optimizer locked?
+Creating an optimization round requires Pro. See [How Meta Ads Optimization works](docs/en/optimizer/optimizer-overview.md).
+
+## Can I upload an Excel file?
+No, export a UTF-8 `.csv` with the required columns. See [CSV format and required columns](docs/en/optimizer/csv-requirements.md).
+
+## Why are columns missing?
+Your Meta export may use different headings or omit audience/interest or purchase-value data. Compare all 13 required categories. See [Fix CSV import errors](docs/en/troubleshooting/csv-errors.md).
+
+## Can AdPilot improve my Meta ads automatically?
+No. It recommends actions; you apply changes in Meta Ads Manager. See [Read optimization recommendations](docs/en/optimizer/optimizer-results.md).
+
+## Why is the next optimization not available?
+The normal user flow waits at least 72 hours between rounds for the same campaign. See [When can I optimize again?](docs/en/optimizer/optimization-cooldown.md).
+
+## Can ChatGPT diagnose an ERR code?
+A documentation-only assistant cannot access private logs. See [What does ERR-XXXXXX mean?](docs/en/troubleshooting/error-reference.md).
+
+---
+
+## File: docs/en/glossary/glossary.md
+
+# Advertising glossary
+
+## Advertising terms
+- **Ad set:** group of ads within a Meta campaign, usually sharing a budget, audience and delivery settings.
+- **Audience / targeting:** people you intend to reach with advertising.
+- **Impressions:** total number of times ads were shown; repeated views count.
+- **Reach:** estimated unique people who saw an ad.
+- **Frequency:** average number of impressions per reached person.
+- **Clicks:** interactions recorded as clicks for the selected report metric.
+- **CTR (click-through rate):** clicks divided by impressions, typically expressed as a percentage. Example: 20 clicks per 1,000 impressions = 2%.
+- **CPC (cost per click):** spend divided by clicks. Example: €10 spend / 20 clicks = €0.50 per click.
+- **CPM (cost per mille):** spend per 1,000 impressions. Example: €10 for 1,000 impressions = €10 CPM.
+- **Conversion:** desired result, such as a purchase or lead; the selected objective affects how results are interpreted.
+- **CPA (cost per acquisition):** spend per acquisition.
+- **CPL (cost per lead):** spend per lead.
+- **ROAS (return on ad spend):** revenue attributed to ads divided by ad spend. Example: €200 attributed revenue / €100 spend = 2× ROAS; this is not profit.
+- **Product Ad Score:** AdPilot's 0–100 indicator of product-listing completeness, not an ad-performance guarantee.
+- **Simulation:** hypothetical campaign projection, not a live Meta report.
+- **AI campaign proposal:** suggested plan that a merchant reviews and implements manually.
+- **Optimization round:** saved analysis of an exported Meta Ads report.
+- **CSV:** a plain-text table format that stores values in delimited columns.
+- **UTF-8:** text encoding accepted for CSV upload.
+- **Generation credit:** allowance to request one AI-generated campaign proposal.
+- **Cooldown:** waiting period before repeating an operation.
+
+See [Read simulation results](docs/en/simulator/simulation-results.md), [Review products with Product Ad Score](docs/en/products/product-ad-score.md) and [How Meta Ads Optimization works](docs/en/optimizer/optimizer-overview.md).
+
+# Language: it
+
+
+---
+
+## File: docs/it/getting-started/overview.md
+
+# Che cos’è AdPilot?
+
+## A cosa serve AdPilot
+AdPilot è un'app Shopify per pianificare, stimare e analizzare campagne pubblicitarie Facebook e Instagram (Meta). Funziona all'interno dell'amministrazione Shopify.
+
+Permette di valutare la completezza delle schede prodotto, stimare i possibili risultati di una campagna, ottenere proposte pubblicitarie generate dall'AI nei piani abilitati e, con Pro, analizzare un report delle performance Meta Ads.
+
+## Percorso tipico
+1. Apri **AdPilot** dall'amministrazione Shopify.
+2. Vai su **Guida** e imposta gli obiettivi del negozio.
+3. Apri **Product Ad Score** per esaminare le schede prodotto.
+4. Crea una simulazione scegliendo budget, durata, obiettivo, settore e paese.
+5. Se il piano lo consente, genera una proposta di campagna AI e controllala prima di utilizzarla.
+6. Quando hai dati reali, con Pro puoi caricare un CSV e ricevere suggerimenti di ottimizzazione.
+
+## Limiti importanti
+- AdPilot **non pubblica, interrompe o modifica automaticamente le inserzioni Meta**. Le indicazioni vanno applicate manualmente in Meta Ads Manager.
+- Le previsioni sono stime, non garanzie di vendite, traffico o ROAS.
+- L'app non sostituisce gli strumenti di gestione di Shopify o Meta.
+
+Continua con [Primi passi con AdPilot](docs/it/getting-started/first-steps.md) e [Confrontare Free, Starter e Pro](docs/it/plans/plans-overview.md).
+
+---
+
+## File: docs/it/getting-started/open-adpilot.md
+
+# Aprire AdPilot in Shopify
+
+## Installare AdPilot (se non è ancora installato)
+1. Apri la [scheda ufficiale di AdPilot nello Shopify App Store](https://apps.shopify.com/adpilot?locale=it).
+2. Seleziona **Installa** e accedi a Shopify se richiesto.
+3. Scegli il negozio e controlla le autorizzazioni mostrate da Shopify.
+4. Conferma l'installazione soltanto se accetti autorizzazioni e condizioni visualizzate.
+
+La scheda App Store di AdPilot è disponibile pubblicamente. Il completamento dell'installazione su un negozio specifico richiede l'accesso Shopify e non è stato testato con questa guida.
+
+## Prima di iniziare
+AdPilot deve essere già installata nel negozio Shopify e devi poter accedere alla sua amministrazione.
+
+## Aprire l'app
+1. Accedi al pannello di **amministrazione Shopify** del negozio.
+2. Apri la sezione delle **App** installate.
+3. Seleziona **AdPilot**.
+4. Usa la navigazione per accedere a **Guida**, **Dashboard**, **Product Ad Score**, **Simulatore**, **Generatore AI**, **Campagne**, **Ottimizzazione** o **Piani**.
+
+## Se AdPilot non compare
+Verifica di trovarti nel negozio Shopify corretto e che l'app sia installata. Se AdPilot non è installata, usa la scheda ufficiale Shopify indicata sopra. Se Shopify impedisce l'installazione, controlla i permessi sul negozio e segui il messaggio visualizzato.
+
+Se la pagina non si apre, leggi [Risolvere i problemi di accesso](docs/it/troubleshooting/access-issues.md). Non inviare mai password o token Shopify all'assistenza.
+
+---
+
+## File: docs/it/getting-started/first-steps.md
+
+# Primi passi con AdPilot
+
+## Segui la guida integrata
+Apri **Guida**. AdPilot presenta quattro attività e ne mostra lo stato di completamento:
+
+1. **Imposta i target**: scegli il settore e, se vuoi, budget giornaliero, CPA, CPL e ROAS obiettivo.
+2. **Esegui una simulazione**: scegli i parametri pubblicitari e analizza le stime.
+3. **Genera una campagna AI**: seleziona un prodotto attivo e richiedi una proposta (Starter o Pro).
+4. **Esegui un'ottimizzazione**: quando una campagna dispone di dati reali Meta Ads, con Pro puoi caricare un report CSV.
+
+La Guida mostra un indicatore di avanzamento. È un percorso introduttivo, non una procedura obbligatoria di installazione: puoi accedere anche alle altre sezioni.
+
+## Se un passaggio non è disponibile
+Alcune attività richiedono un piano a pagamento. Anche con Free puoi impostare i target, consultare i prodotti e utilizzare simulazioni limitate. Vedi [Confrontare Free, Starter e Pro](docs/it/plans/plans-overview.md).
+
+Per iniziare, leggi [Impostare gli obiettivi del negozio](docs/it/dashboard/shop-targets.md).
+
+---
+
+## File: docs/it/getting-started/interface-and-language.md
+
+# Navigazione e lingua
+
+## Navigazione principale
+La barra dell'app contiene **Guida**, **Home/Dashboard**, **Product Ad Score**, **Simulatore**, **Generatore AI**, **Campagne**, **Ottimizzazione** e **Piani**.
+
+Usa **Dashboard** per target e attività recenti, **Simulatore** per le previsioni, **Campagne** per le proposte AI salvate e **Ottimizzazione** per lo storico delle analisi.
+
+## Cambiare lingua
+1. Apri AdPilot.
+2. Individua il selettore **EN / IT**, nell'area in basso a destra dell'interfaccia.
+3. Seleziona **Italiano** o **English**.
+4. L'app salva la preferenza per il negozio.
+
+L'interfaccia corrente prevede inglese e italiano. Una preferenza già salvata prevale sulla lingua rilevata inizialmente da Shopify.
+
+## In caso di problemi
+Se i testi non si aggiornano, ricarica una volta l'app. Per problemi di accesso, consulta [Risolvere i problemi di accesso](docs/it/troubleshooting/access-issues.md).
+
+---
+
+## File: docs/it/dashboard/dashboard.md
+
+# Capire la Dashboard
+
+## Panoramica
+La **Dashboard** è la pagina di riepilogo di AdPilot. In base alle attività già svolte, mostra i target del negozio, il piano e l'utilizzo, l'avanzamento della Guida, informazioni sull'ultima campagna e un'azione successiva suggerita.
+
+## Come utilizzarla
+1. Apri **Home/Dashboard**.
+2. Verifica se hai configurato i target del negozio.
+3. Controlla il piano corrente e gli indicatori di utilizzo disponibili.
+4. Segui il suggerimento successivo oppure apri una funzione dalla navigazione.
+
+La Dashboard può apparire diversa a un negozio nuovo rispetto a uno che ha già campagne o ottimizzazioni salvate. L'assenza di una campagna recente non indica, da sola, un malfunzionamento.
+
+## Guide correlate
+Leggi [Impostare gli obiettivi del negozio](docs/it/dashboard/shop-targets.md), [Confrontare Free, Starter e Pro](docs/it/plans/plans-overview.md) e [Primi passi con AdPilot](docs/it/getting-started/first-steps.md).
+
+---
+
+## File: docs/it/dashboard/shop-targets.md
+
+# Impostare gli obiettivi del negozio
+
+## Cosa sono i target
+I target sono valori di riferimento per la pianificazione. Possono includere **settore**, **budget pubblicitario giornaliero**, **CPA obiettivo**, **CPL obiettivo** e **ROAS obiettivo**. Il CPA è il costo per acquisizione, il CPL il costo per contatto e il ROAS confronta i ricavi attribuiti con la spesa pubblicitaria.
+
+## Impostare o modificare i target
+1. Apri la **Dashboard**.
+2. Trova la sezione target e seleziona **Imposta target** oppure **Modifica target**.
+3. Scegli il settore; puoi anche specificare una nicchia.
+4. Inserisci gli obiettivi economici utili per il negozio.
+5. Salva le impostazioni.
+
+Non è obbligatorio compilare ogni campo. I target guidano la pianificazione e i suggerimenti AI; non sono promesse di risultato.
+
+## Se un valore viene rifiutato
+Controlla che i valori numerici siano non negativi, entro gli intervalli ammessi e scritti in un formato valido. Evita simboli o testi lunghi nei campi numerici.
+
+Consulta [Glossario pubblicitario](docs/it/glossary/glossary.md) per capire le metriche.
+
+---
+
+## File: docs/it/products/product-ad-score.md
+
+# Valutare i prodotti con Product Ad Score
+
+## Che cosa indica il punteggio
+**Product Ad Score** valuta le informazioni presenti in una scheda prodotto Shopify, considerando titolo, descrizione, immagini, tag, dati di prezzo e completezza. Il risultato va da **0 a 100**.
+
+È un indicatore della qualità della scheda, **non una previsione dei ricavi pubblicitari effettivi**.
+
+## Come esaminare i prodotti
+1. Apri **Product Ad Score** in AdPilot.
+2. Consulta l'elenco e gli indicatori riepilogativi.
+3. Esamina il dettaglio del punteggio di un prodotto, se visualizzato.
+4. Se opportuno, migliora le informazioni del prodotto in Shopify.
+5. Torna su AdPilot per visualizzare la nuova valutazione.
+
+AdPilot legge le informazioni dei prodotti, ma non modifica il catalogo Shopify. Il punteggio viene ricalcolato all'apertura della pagina.
+
+## Limiti dei piani
+Free mostra fino a **5** prodotti, Starter fino a **50**. Pro non prevede un limite di piano per lo scoring, ma la schermata attuale recupera al massimo **250 prodotti per caricamento** e non espone una paginazione successiva. Vedi [Confrontare Free, Starter e Pro](docs/it/plans/plans-overview.md).
+
+---
+
+## File: docs/it/products/interpret-product-score.md
+
+# Interpretare il punteggio di un prodotto
+
+## Fasce di valutazione
+AdPilot usa quattro fasce: **80–100 Ottimo**, **60–79 Buono**, **40–59 Da migliorare** e **0–39 Scarso**.
+
+Il calcolo considera sei aspetti: **titolo (fino a 20 punti)**, **descrizione (25)**, **immagini (20)**, **tag (15)**, **prezzo (15)** e **completezza (5)**.
+
+## Come usare il risultato
+1. Inizia dai prodotti con punteggi più bassi.
+2. Verifica che il titolo descriva chiaramente il prodotto.
+3. Rendi la descrizione utile e informativa.
+4. Controlla immagini disponibili e tag pertinenti.
+5. Verifica prezzo, produttore e disponibilità.
+6. Modifica le schede in Shopify e riapri AdPilot per ricalcolare il punteggio.
+
+Un punteggio alto non garantisce l'approvazione delle inserzioni Meta, conversioni o maggiori vendite. Dai priorità a informazioni accurate, non all'aggiunta di testo o tag irrilevanti solo per ottenere punti.
+
+Vedi [Valutare i prodotti con Product Ad Score](docs/it/products/product-ad-score.md).
+
+---
+
+## File: docs/it/simulator/create-simulation.md
+
+# Creare una simulazione pubblicitaria
+
+## Prima di iniziare
+Una simulazione è una previsione basata su ipotesi, non una campagna reale. Non è necessario collegare un account pubblicitario Meta per eseguirla.
+
+## Creare una simulazione
+1. Apri **Simulatore**.
+2. Seleziona **Nuova simulazione**.
+3. Se vuoi, assegna un nome.
+4. Inserisci il **budget giornaliero** come numero intero da **1 a 10.000** nella valuta mostrata dall'app.
+5. Inserisci la **durata** in giorni interi; il modulo attuale propone **1–90 giorni**.
+6. Scegli obiettivo, settore e paese.
+7. Seleziona **Esegui simulazione**.
+8. Esamina le metriche stimate e il risultato salvato.
+
+## Quote mensili
+Free: **3** simulazioni; Starter: **30**; Pro: nessun tetto mensile codificato nel piano. La quota segue il mese di calendario, non necessariamente la scadenza dell'abbonamento Shopify.
+
+## Importante
+La simulazione non spende denaro e non crea un annuncio su Meta. Vedi [Interpretare i risultati della simulazione](docs/it/simulator/simulation-results.md) e [Risolvere errori e limiti del Simulatore](docs/it/troubleshooting/simulation-errors.md).
+
+---
+
+## File: docs/it/simulator/simulation-results.md
+
+# Interpretare i risultati della simulazione
+
+## Quali valori vengono mostrati
+Dopo la simulazione AdPilot stima spesa e metriche come **impression**, **copertura**, **clic**, **CTR**, **CPC** e **CPM**. I piani Starter e Pro permettono anche di consultare metriche avanzate come **CPA**, **ricavi stimati** e **ROAS**.
+
+## Come leggere le stime
+- **Impression**: quante volte un'inserzione potrebbe essere mostrata; una persona può vederla più volte.
+- **Copertura**: numero indicativo di persone distinte raggiunte.
+- **CTR**: quota di impression che genera clic.
+- **CPC**: costo stimato per clic.
+- **CPA**: costo stimato per acquisizione.
+- **ROAS**: ricavi attribuiti stimati divisi per spesa pubblicitaria.
+
+## Esempio
+Un ROAS previsto di **2×** indica circa 2 unità di ricavo attribuito per ogni unità di spesa pubblicitaria, *non* 2 unità di utile. Costi del prodotto e costi operativi sono separati.
+
+**Le previsioni non sono garanzie.** La stima non deriva dai risultati di una campagna Meta attiva. Vedi [Glossario pubblicitario](docs/it/glossary/glossary.md).
+
+---
+
+## File: docs/it/simulator/simulation-history.md
+
+# Consultare ed eliminare le simulazioni
+
+## Consultare le simulazioni salvate
+1. Apri **Simulatore**.
+2. Seleziona una simulazione dallo storico per vedere parametri e risultati.
+3. Nella pagina di dettaglio usa la funzione di eliminazione solo se non ti serve più il record.
+
+Con Free lo storico mostra fino alle tre voci più recenti. Nei piani a pagamento lo storico è suddiviso in pagine.
+
+## Eliminazione e quote
+L'eliminazione nasconde la simulazione dallo storico ordinario. **Non restituisce una simulazione alla quota del mese corrente.** Il conteggio comprende anche le simulazioni create e poi eliminate.
+
+Prima di confermare, assicurati di aver conservato ciò che ti serve. Per le quote, vedi [Creare una simulazione pubblicitaria](docs/it/simulator/create-simulation.md).
+
+---
+
+## File: docs/it/ai-generator/ai-generator-access.md
+
+# Accesso e crediti del Generatore AI
+
+## Chi può usare il generatore?
+- **Free:** Generatore AI non disponibile.
+- **Starter:** fino a **2 generazioni AI incluse per mese di calendario**.
+- **Pro:** fino a **20 generazioni AI incluse per mese di calendario**, più eventuali crediti extra.
+
+Una generazione produce una proposta di campagna, ma non la pubblica su Meta. L'app utilizza il prodotto Shopify selezionato e i parametri della campagna.
+
+## Verificare l'accesso
+1. Apri **Piani** per conoscere il piano attivo.
+2. Apri **Generatore AI**.
+3. Se la funzione è bloccata o i crediti sono terminati, verifica la quota prima di riprovare.
+
+Gli acquisti di generazioni aggiuntive sono proposti agli utenti Pro; vedi [Acquistare crediti AI aggiuntivi](docs/it/plans/extra-generations.md). La disponibilità dei crediti può dipendere dalla conferma dell'acquisto Shopify.
+
+Vedi [Generare una proposta di campagna AI](docs/it/ai-generator/create-ai-campaign.md) per la procedura completa.
+
+---
+
+## File: docs/it/ai-generator/create-ai-campaign.md
+
+# Generare una proposta di campagna AI
+
+## Requisiti
+Servono **Starter o Pro**, generazioni AI disponibili e almeno un prodotto Shopify attivo.
+
+## Creare la proposta
+1. Apri **Generatore AI**.
+2. Seleziona un prodotto attivo dall'elenco.
+3. Scegli **settore**, **paese** e **obiettivo pubblicitario**.
+4. Se vuoi, specifica una nicchia commerciale.
+5. Inserisci il budget giornaliero come numero intero da **1 a 10.000** e una durata intera nell'intervallo ammesso.
+6. Seleziona **Genera** e controlla il risultato al termine dell'elaborazione.
+7. Apri il dettaglio della campagna salvata per consultarla di nuovo.
+
+La generazione può richiedere tempo. Non inviare ripetutamente richieste mentre un'elaborazione è in corso.
+
+## Prima di usare il contenuto
+Controlla pubblico, affermazioni, testi, budget e obiettivi, anche rispetto alle regole Meta. La campagna reale deve essere creata manualmente in Meta Ads Manager.
+
+Vedi [Interpretare la campagna generata](docs/it/ai-generator/review-ai-output.md) e [Risolvere i problemi del Generatore AI](docs/it/troubleshooting/ai-errors.md).
+
+---
+
+## File: docs/it/ai-generator/review-ai-output.md
+
+# Interpretare la campagna generata
+
+## Cosa contiene la proposta
+Il piano generato può comprendere struttura della campagna, gruppi di inserzioni suggeriti, pubblici, idee creative, testi, ripartizione del budget e indicatori di performance.
+
+## Controlli consigliati
+1. Verifica che prodotto e settore siano corretti.
+2. Confronta il budget suggerito con quello che puoi effettivamente spendere.
+3. Controlla ogni affermazione sul prodotto: non pubblicare caratteristiche, sconti o garanzie inventate.
+4. Valuta se il targeting proposto è appropriato per il pubblico e conforme alle policy pubblicitarie.
+5. Adatta testi e idee creative prima di creare inserzioni in Meta Ads Manager.
+6. Monitora i risultati reali dopo la pubblicazione.
+
+**Il contenuto AI è una proposta**, non una campagna Meta approvata o avviata. L'app non dispone dei permessi per pubblicare automaticamente annunci Meta.
+
+Vedi [Trovare e consultare le campagne salvate](docs/it/campaigns/saved-campaigns.md) e [Come funziona Ottimizzazione Meta Ads](docs/it/optimizer/optimizer-overview.md).
+
+---
+
+## File: docs/it/campaigns/saved-campaigns.md
+
+# Trovare e consultare le campagne salvate
+
+## Trovare una campagna
+1. Apri **Campagne**.
+2. Seleziona la proposta salvata che vuoi consultare.
+3. Controlla prodotto, durata, budget giornaliero e piano suggerito.
+4. Se il piano e il periodo lo consentono, apri **Avvia ottimizzazione** per analizzare i dati reali.
+
+La sezione Campagne elenca proposte generate dall'AI; **non** è un elenco di campagne attive recuperate da Meta Ads Manager.
+
+## Se la lista è vuota
+Crea la prima proposta seguendo [Generare una proposta di campagna AI](docs/it/ai-generator/create-ai-campaign.md). Gli utenti Free non possono generare nuove proposte con il piano corrente.
+
+Se non ti serve una proposta salvata, leggi [Eliminare una campagna salvata](docs/it/campaigns/delete-campaigns.md).
+
+---
+
+## File: docs/it/campaigns/delete-campaigns.md
+
+# Eliminare una campagna salvata
+
+## Eliminare una proposta
+1. Apri **Campagne** e seleziona la campagna salvata.
+2. Nella pagina di dettaglio scegli l'azione **Elimina** disponibile.
+3. Leggi la conferma prima di procedere.
+
+L'eliminazione da AdPilot rimuove la proposta dalla visualizzazione ordinaria. **Non elimina e non interrompe nulla in Meta Ads Manager**, perché AdPilot non gestisce le inserzioni attive.
+
+Non dare per scontato che l'eliminazione restituisca crediti AI già utilizzati. Se ti servono ancora informazioni del piano, conservale prima di eliminarlo.
+
+Per la privacy, vedi [Dati, autorizzazioni e privacy](docs/it/privacy/privacy-and-data.md).
+
+---
+
+## File: docs/it/optimizer/optimizer-overview.md
+
+# Come funziona Ottimizzazione Meta Ads
+
+## A cosa serve l'Optimizer
+La funzione **Ottimizzazione** analizza le performance pubblicitarie esportate da Meta Ads Manager. Riassume i risultati e propone interventi per una campagna AI salvata in AdPilot.
+
+## Requisiti
+- Piano **Pro** attivo per creare nuovi round.
+- Una proposta di campagna AI già salvata.
+- Un report **CSV UTF-8** compatibile esportato da Meta Ads Manager.
+- L'intervallo previsto di **72 ore** tra round sulla stessa campagna.
+
+## Procedura
+1. Apri **Campagne** e seleziona una campagna.
+2. Avvia l'ottimizzazione quando il pulsante è disponibile.
+3. Esporta da Meta Ads un report con le colonne richieste.
+4. Indica il periodo analizzato e carica il CSV.
+5. Leggi le raccomandazioni e applica manualmente su Meta le modifiche che ritieni opportune.
+
+**Questo flusso non collega un account Meta né modifica automaticamente gli annunci.** I risultati dipendono dai dati presenti nel report, perciò controllali prima dell'importazione.
+
+Leggi [Esportare un report da Meta Ads Manager](docs/it/optimizer/meta-csv-export.md), [Formato CSV e colonne obbligatorie](docs/it/optimizer/csv-requirements.md) e [Interpretare i consigli dell’Optimizer](docs/it/optimizer/optimizer-results.md).
+
+---
+
+## File: docs/it/optimizer/meta-csv-export.md
+
+# Esportare un report da Meta Ads Manager
+
+## Preparare il report in Meta
+L'interfaccia di Meta Ads Manager può cambiare. I passaggi seguenti riprendono le istruzioni presenti attualmente in AdPilot:
+
+1. Apri **Meta Ads Manager** e raggiungi l'area Rapporti (Report / Report personalizzato).
+2. Scegli l'intervallo delle date; AdPilot suggerisce dati recenti, per esempio **7–30 giorni**.
+3. Seleziona la campagna da analizzare e il livello **Gruppo di inserzioni**; prepara **un file per ogni campagna**.
+4. Includi le metriche in [Formato CSV e colonne obbligatorie](docs/it/optimizer/csv-requirements.md), in particolare il **valore acquisti** (non il ROAS).
+5. Controlla se il report offre davvero la colonna **Pubblico/Interesse** o una voce compatibile. AdPilot la richiede, ma Meta potrebbe non mostrarla nel report standard: non inventare o rinominare dati non equivalenti.
+6. Esporta in formato **CSV**, non Excel `.xlsx`, e controlla intestazioni e formato numerico.
+7. Conserva il file sul dispositivo fino al caricamento in AdPilot.
+
+Se Meta usa etichette diverse, confronta le intestazioni esportate con [Formato CSV e colonne obbligatorie](docs/it/optimizer/csv-requirements.md). Il campo Pubblico/Interesse è obbligatorio per l'importazione attuale. Se manca nel report autentico esportato da Meta, chiedi indicazioni all'assistenza AdPilot senza improvvisare un campo sostitutivo.
+
+Non inviare report pubblicitari privati in una chat pubblica. Vedi [Caricare un CSV nell’Optimizer](docs/it/optimizer/upload-csv.md).
+
+---
+
+## File: docs/it/optimizer/csv-requirements.md
+
+# Formato CSV e colonne obbligatorie
+
+## Requisiti del file
+L'Optimizer accetta file **`.csv`**, testo **UTF-8** (anche con BOM UTF-8), separatore **virgola** o **punto e virgola**, dimensione da **1 KiB a 10 MiB**, massimo **50.000 righe di dati** e **200 colonne**.
+
+File `.xlsx`, codifica UTF-16 e separatori diversi non sono supportati. I CSV senza dati utilizzabili vengono rifiutati.
+
+## Colonne obbligatorie
+Il report deve contenere tutte le 13 categorie seguenti; AdPilot riconosce diverse varianti italiane e inglesi delle intestazioni:
+
+| Dato | Esempio inglese | Esempio italiano |
+| --- | --- | --- |
+| Campagna | Campaign name | Nome della campagna |
+| Gruppo di inserzioni | Ad set name | Nome del gruppo di inserzioni |
+| Pubblico / interesse | Audience/Interest | Pubblico/Interesse |
+| Spesa | Amount spent | Importo speso |
+| Impression | Impressions | Impression |
+| Copertura | Reach | Copertura |
+| Frequenza | Frequency | Frequenza |
+| Clic | Link clicks | Clic sul link |
+| Percentuale clic | CTR | CTR |
+| Costo per clic | CPC | CPC |
+| Costo per mille | CPM | CPM |
+| Acquisti | Purchases | Acquisti |
+| Valore acquisti | Purchase value | Valore conversione acquisti |
+
+Sono necessari sia **Acquisti** sia **Valore acquisti** come campi distinti. Se AdPilot segnala colonne assenti, consulta [Risolvere gli errori di importazione CSV](docs/it/troubleshooting/csv-errors.md) e controlla le intestazioni originali.
+
+## Preparare dati affidabili
+- Esporta **una sola campagna per file CSV**. Evita report che uniscono più campagne, soprattutto se condividono nomi identici per i gruppi di inserzioni.
+- Usa numeri senza separatori delle migliaia: per esempio **1234.56** (CSV separato da virgole) oppure **1234,56** (CSV separato da punti e virgola). Evita formati come `1,234.56` o `1.234,56`: potrebbero essere interpretati male.
+- Se possibile, mantieni i campi testuali su una riga; i ritorni a capo dentro celle CSV fra virgolette potrebbero non essere importati correttamente.
+- Per il **valore degli acquisti** usa il valore reale delle conversioni, **non il ROAS degli acquisti**: sono metriche diverse.
+- Mantieni periodo e valuta coerenti e confronta i totali con Meta prima di applicare le raccomandazioni AI.
+
+La colonna **Pubblico/Interesse** è obbligatoria per l'importazione attuale. I report standard di Meta potrebbero non offrire un campo equivalente. **Non rinominare colonne non pertinenti né inventare valori di targeting** per superare il controllo. Se manca il campo nel report autentico, contatta l'assistenza AdPilot per verificare un formato compatibile.
+
+---
+
+## File: docs/it/optimizer/upload-csv.md
+
+# Caricare un CSV nell’Optimizer
+
+## Prima del caricamento
+Servono **Pro**, una campagna salvata, un CSV compatibile e la disponibilità della funzione di ottimizzazione per quella campagna.
+
+## Procedura
+1. Apri **Campagne** e seleziona la campagna.
+2. Se disponibile, seleziona **Avvia ottimizzazione**.
+3. Leggi le istruzioni di esportazione e l'elenco delle colonne richieste.
+4. Imposta il **Periodo analizzato (giorni)**; il modulo attuale propone **1–90 giorni** e il valore iniziale è 7.
+5. Seleziona il file `.csv` dal dispositivo.
+6. Premi **Analizza** e consulta il report ottenuto.
+
+Non abbandonare la schermata né inviare richieste ripetute durante l'elaborazione. Se il file viene rifiutato, leggi [Risolvere gli errori di importazione CSV](docs/it/troubleshooting/csv-errors.md) e [Formato CSV e colonne obbligatorie](docs/it/optimizer/csv-requirements.md).
+
+## Privacy
+Verifica che il report non contenga dati sensibili prima del caricamento. I dati del report vengono elaborati per produrre le raccomandazioni. Non inviare report o dati personali al supporto in chat.
+
+---
+
+## File: docs/it/optimizer/optimizer-results.md
+
+# Interpretare i consigli dell’Optimizer
+
+## Che cos'è l'analisi
+AdPilot esamina i dati di performance caricati e crea un report salvato con valutazioni e azioni suggerite per gruppi di inserzioni e pubblici. Può consigliare di mantenere, aumentare, ridurre o interrompere una parte della strategia.
+
+## Leggere il report
+1. Apri **Ottimizzazione** e seleziona un'analisi salvata, oppure consulta la pagina mostrata dopo il caricamento.
+2. Controlla periodo, nome del report e campagna interessata.
+3. Esamina i totali e i singoli consigli.
+4. Confronta i suggerimenti con i dati correnti e gli obiettivi del negozio.
+5. Se li condividi, applica le modifiche **manualmente in Meta Ads Manager**.
+
+## Limiti
+- Le raccomandazioni AI possono essere imprecise e non garantiscono risultati.
+- AdPilot non conosce i risultati successivi in tempo reale se non fornisci nuovi dati.
+- Il report salvato **non modifica da solo** una campagna Meta.
+
+Per analisi successive, vedi [Quando posso ottimizzare di nuovo?](docs/it/optimizer/optimization-cooldown.md).
+
+---
+
+## File: docs/it/optimizer/optimization-cooldown.md
+
+# Quando posso ottimizzare di nuovo?
+
+## Intervallo previsto
+L'interfaccia ordinaria di AdPilot richiede almeno **72 ore** tra round di ottimizzazione della **stessa campagna salvata**. Nella pagina di dettaglio, il pulsante di avvio può mostrare un avviso di attesa.
+
+## Come comportarsi
+1. Apri **Campagne** e seleziona la campagna.
+2. Controlla se l'azione di ottimizzazione è disponibile.
+3. Se viene mostrata un'attesa, consulta il report precedente e continua a monitorare i risultati su Meta Ads Manager.
+4. Riprova quando l'interfaccia indica che puoi effettuare una nuova analisi.
+
+L'attesa riguarda la stessa campagna; non indica ogni quanto Meta aggiorni i report. Un assistente pubblico non può verificare la data dell'ultimo round né aggirare la limitazione.
+
+Per altri problemi, vedi [Risolvere i problemi dell’Optimizer](docs/it/troubleshooting/optimizer-errors.md).
+
+---
+
+## File: docs/it/plans/plans-overview.md
+
+# Confrontare Free, Starter e Pro
+
+## Piani e quote
+| Funzionalità | Free | Starter | Pro |
+| --- | --- | --- | --- |
+| Prodotti visualizzati per scoring | Fino a 5 | Fino a 50 | Fino a 250 per caricamento* |
+| Simulazioni per mese di calendario | 3 | 30 | Nessun tetto di piano codificato |
+| Metriche avanzate nelle simulazioni | No | Sì | Sì |
+| Generazioni AI per mese di calendario | 0 | 2 | 20 |
+| Creazione di analisi CSV | No | No | Sì |
+| Acquisto generazioni AI aggiuntive | No | No | Sì |
+
+*La configurazione di Pro non prevede una quota scoring, ma la schermata attuale recupera al massimo 250 elementi per caricamento senza pagine successive.*
+
+## Verificare il piano attivo
+1. Apri **Piani**.
+2. Individua il piano contrassegnato come attivo.
+3. Esamina le funzionalità incluse e le quote mensili mostrate.
+
+## Prezzi pubblicati
+Al **17 novembre 2026**, la [scheda ufficiale nello Shopify App Store](https://apps.shopify.com/adpilot?locale=it) indica **Starter a 19 USD/mese oppure 190 USD/anno** e **Pro a 39 USD/mese oppure 390 USD/anno**. Free è gratuito. I prezzi possono cambiare: verifica importo, valuta e condizioni nel checkout prima di confermare. Vedi [Fatturazione Shopify: cosa controllare](docs/it/plans/billing-questions.md).
+
+L'**esportazione CSV** compare in alcune descrizioni dei piani ma non è verificata come funzione operativa dell'app: qui viene documentata soltanto l'**importazione** del CSV Meta.
+
+Vedi [Cambiare o annullare un piano](docs/it/plans/change-plan.md) e [Fatturazione Shopify: cosa controllare](docs/it/plans/billing-questions.md).
+
+---
+
+## File: docs/it/plans/change-plan.md
+
+# Cambiare o annullare un piano
+
+## Modificare l'abbonamento
+1. Apri **Piani** in AdPilot.
+2. Esamina le opzioni Free, Starter e Pro.
+3. Per un piano a pagamento seleziona il piano e la periodicità mensile o annuale.
+4. Segui, se richiesto, la schermata di conferma Shopify esterna al riquadro dell'app.
+5. Prima di approvare controlla prezzo, **valuta**, periodo di fatturazione e condizioni di sostituzione.
+6. Torna in AdPilot e verifica il piano attivo.
+
+## Downgrade e disdetta
+Il passaggio da Pro a Starter è progettato per partire dal ciclo di fatturazione successivo. L'azione **Annulla** per tornare da un piano a pagamento a Free è diversa: richiede la cancellazione e può modificare immediatamente l'accesso. **Non** presumere che ogni riduzione di piano decorra a fine periodo.
+
+## Se il checkout è inatteso
+Interrompiti prima di confermare l'addebito. Controlla i termini mostrati da Shopify e contatta il supporto ufficiale se piano, valuta, prezzo o stato non sono quelli attesi.
+
+Vedi [Fatturazione Shopify: cosa controllare](docs/it/plans/billing-questions.md) e [Problemi di pagamento e crediti mancanti](docs/it/troubleshooting/billing-errors.md).
+
+---
+
+## File: docs/it/plans/extra-generations.md
+
+# Acquistare crediti AI aggiuntivi
+
+## Disponibilità
+Il piano **Pro** permette acquisti una tantum di generazioni AI aggiuntive. Il modulo accetta quantità da **5 a 1.000** unità per acquisto.
+
+I crediti extra servono al Generatore AI. Dopo la conferma dell'acquisto, si aggiungono alle generazioni incluse nel piano e vengono consumati prima della quota mensile ordinaria.
+
+## Acquisto in sicurezza
+1. Apri **Piani** con Pro attivo.
+2. Cerca la sezione delle generazioni aggiuntive.
+3. Scegli la quantità desiderata.
+4. Prosegui alla conferma Shopify.
+5. Verifica **importo finale, valuta e condizioni** prima del pagamento.
+6. Torna in AdPilot e controlla il saldo delle generazioni.
+
+## Importante
+Non considerare riuscito l'acquisto finché Shopify non lo conferma. Se saldo o addebito sembrano errati, evita di ripetere subito il pagamento e consulta [Problemi di pagamento e crediti mancanti](docs/it/troubleshooting/billing-errors.md). Non riportiamo qui prezzi unitari definitivi finché la valuta non è stata verificata.
+
+---
+
+## File: docs/it/plans/billing-questions.md
+
+# Fatturazione Shopify: cosa controllare
+
+## Come funziona la fatturazione
+I piani a pagamento e gli acquisti di generazioni extra utilizzano la **conferma di fatturazione Shopify**. La pagina Piani propone periodicità mensile e annuale per gli abbonamenti.
+
+## Prima di approvare
+1. Verifica piano o quantità di generazioni.
+2. Leggi importo e valuta mostrati da **Shopify**.
+3. Controlla periodicità e indicazioni sulle imposte, quando presenti.
+4. Leggi gli effetti della sostituzione o cancellazione di un abbonamento.
+5. Approva soltanto se i dettagli corrispondono alle aspettative.
+
+## Prezzi indicati nello Shopify App Store (verifica del 17 novembre 2026)
+| Piano | Mensile | Annuale |
+| --- | ---: | ---: |
+| Free | Gratuito | — |
+| Starter | **19 USD/mese** | **190 USD/anno** |
+| Pro | **39 USD/mese** | **390 USD/anno** |
+
+Fonte: [scheda ufficiale di AdPilot nello Shopify App Store](https://apps.shopify.com/adpilot?locale=it), che specifica addebiti in **USD**. Si tratta dei *prezzi pubblicati* alla data della verifica, **non di un checkout eseguito sul tuo negozio**. La schermata di conferma Shopify resta il riferimento per importo, valuta, imposte e condizioni che stai approvando.
+
+Per acquistare generazioni AI aggiuntive è previsto un flusso separato una tantum sui piani idonei. Verifica il totale e la valuta mostrati nella conferma Shopify prima di approvare.
+
+Se un importo o la valuta sono inattesi, interrompi prima della conferma e utilizza il canale di assistenza indicato nella scheda AdPilot o nell'amministrazione Shopify.
+
+Non condividere dati completi della carta, credenziali Shopify o token di pagamento in chat pubbliche. Vedi [Cambiare o annullare un piano](docs/it/plans/change-plan.md).
+
+---
+
+## File: docs/it/troubleshooting/access-issues.md
+
+# Risolvere i problemi di accesso
+
+## Se l'app manca o non si apre
+1. Verifica di aver effettuato l'accesso al **negozio Shopify corretto**.
+2. Controlla che AdPilot compaia fra le app installate.
+3. Riapri AdPilot dall'amministrazione Shopify invece di utilizzare un vecchio collegamento salvato.
+4. Se il problema sembra temporaneo, ricarica una volta.
+5. Annota il messaggio visualizzato, l'orario approssimativo e la pagina interessata.
+
+L'accesso dipende dall'autenticazione Shopify e dall'installazione nel negozio. Questa guida non può controllare il tuo account né modificare autorizzazioni a distanza.
+
+## Quando contattare il supporto
+Se il problema persiste, invia al canale ufficiale il messaggio e una breve descrizione **senza password, token, dati privati o dettagli di pagamento**. Se compare un riferimento `ERR-XXXXXX`, includilo. Vedi [Che cosa significa ERR-XXXXXX?](docs/it/troubleshooting/error-reference.md).
+
+---
+
+## File: docs/it/troubleshooting/csv-errors.md
+
+# Risolvere gli errori di importazione CSV
+
+## Controlli iniziali
+Se l'Optimizer rifiuta un report, verifica prima i requisiti di [Formato CSV e colonne obbligatorie](docs/it/optimizer/csv-requirements.md). Il messaggio esatto aiuta a individuare il problema.
+
+| Messaggio o sintomo | Cosa controllare |
+| --- | --- |
+| Nessun file selezionato | Seleziona il CSV prima di inviare. |
+| File `.csv` richiesto | Esporta CSV, non `.xlsx` né un foglio rinominato. |
+| Troppo piccolo / vuoto | Esporta dati reali; minimo 1 KiB. |
+| Troppo grande | Riduci l'intervallo; massimo 10 MiB. |
+| Codifica non supportata | Salva in UTF-8, non UTF-16. |
+| Separatore non supportato | Usa virgola o punto e virgola. |
+| Colonne mancanti | Confronta le intestazioni con le 13 categorie obbligatorie. |
+| Troppe righe / colonne | Massimo 50.000 righe di dati e 200 colonne. |
+| Nessuna riga valida | Verifica che ci siano dati utilizzabili oltre all'intestazione. |
+| Non è un CSV di testo valido | Esporta un CSV pulito direttamente da Meta Ads Manager. |
+
+## Se il caricamento riesce ma i valori sono sbagliati
+1. Confronta spesa e acquisti totali in AdPilot con lo stesso periodo in Meta Ads Manager.
+2. Riesporta **una sola campagna per file**, con numeri semplici e senza separatori delle migliaia.
+3. Verifica che la colonna **valore acquisti** non contenga il ROAS e che le informazioni su pubblico/interesse siano autentiche.
+4. Se le cifre sono ancora diverse, **non applicare** i suggerimenti e contatta l'assistenza AdPilot senza pubblicare il report privato.
+
+## Procedura consigliata
+1. Riesporta il report originale con le colonne richieste.
+2. Se necessario, controlla codifica e separatori con un editor di testo.
+3. Dopo la correzione, prova il caricamento **una volta**.
+4. Se il messaggio persiste, annotalo per il supporto invece di condividere il file originale in chat.
+
+Per la procedura completa, leggi [Caricare un CSV nell’Optimizer](docs/it/optimizer/upload-csv.md).
+
+---
+
+## File: docs/it/troubleshooting/simulation-errors.md
+
+# Risolvere errori e limiti del Simulatore
+
+## Se un parametro viene rifiutato
+Controlla che il **budget giornaliero** sia un intero da **1 a 10.000**, che la **durata** sia un numero intero nell'intervallo proposto dal modulo e che **obiettivo**, **settore** e **paese** siano selezionati fra quelli disponibili.
+
+## Se la quota mensile è esaurita
+Free include **3** simulazioni per mese di calendario; Starter ne include **30**. Pro non presenta un tetto mensile codificato. Il conteggio considera le simulazioni create nel mese e **l'eliminazione non restituisce una quota**.
+
+## Come procedere
+1. Controlla il tuo piano in **Piani**.
+2. Verifica l'utilizzo mostrato nella Dashboard o nel Simulatore.
+3. Se la quota è terminata, usa quella del mese di calendario successivo oppure valuta le opzioni di upgrade.
+4. Evita invii ripetuti quando compare un limite esplicito.
+
+Vedi [Creare una simulazione pubblicitaria](docs/it/simulator/create-simulation.md) e [Consultare ed eliminare le simulazioni](docs/it/simulator/simulation-history.md).
+
+---
+
+## File: docs/it/troubleshooting/ai-errors.md
+
+# Risolvere i problemi del Generatore AI
+
+## Perché una richiesta può fallire
+- **Piano non abilitato:** Free non include il Generatore AI.
+- **Generazioni esaurite:** hai utilizzato la quota mensile e gli eventuali crediti extra.
+- **Prodotto non valido:** seleziona nuovamente un prodotto attivo.
+- **Parametri errati:** controlla paese, settore, obiettivo, budget e durata.
+- **Errore inatteso:** può essersi verificato un problema di servizio o generazione.
+
+## Verifiche sicure
+1. Apri **Piani** e controlla piano e generazioni disponibili.
+2. Torna su **Generatore AI** e seleziona di nuovo prodotto e opzioni.
+3. Controlla che i numeri siano interi negli intervalli ammessi.
+4. Se appare un errore inatteso, annota il riferimento e l'orario approssimativo.
+5. Evita di ripetere le richieste durante un'elaborazione in corso.
+
+L'app tenta di riaccreditare un credito consumato quando la generazione fallisce, ma il recupero non è garantito in ogni situazione. Per anomalie, contatta il supporto usando [Che cosa significa ERR-XXXXXX?](docs/it/troubleshooting/error-reference.md); non inviare credenziali API o dati privati di clienti.
+
+---
+
+## File: docs/it/troubleshooting/optimizer-errors.md
+
+# Risolvere i problemi dell’Optimizer
+
+## Se l'ottimizzazione non è disponibile
+1. Controlla che il piano attivo sia **Pro**: Free e Starter non possono creare nuovi round.
+2. Apri **Campagne** e seleziona una proposta AI salvata. L'ottimizzazione parte dalla campagna, non da un report isolato.
+3. Verifica se per quella campagna compare un'attesa di **72 ore**.
+4. Controlla il CSV in [Formato CSV e colonne obbligatorie](docs/it/optimizer/csv-requirements.md).
+5. Se l'elaborazione restituisce un codice di riferimento, annotalo con l'orario approssimativo.
+
+## Se i suggerimenti sembrano errati
+Confronta spesa, acquisti, valore degli acquisti, intervallo delle date e suddivisione campagne/gruppi con il report Meta originale. Non applicare automaticamente un suggerimento AI che contraddica i dati reali o le regole pubblicitarie.
+
+Vedi [Quando posso ottimizzare di nuovo?](docs/it/optimizer/optimization-cooldown.md), [Risolvere gli errori di importazione CSV](docs/it/troubleshooting/csv-errors.md) e [Che cosa significa ERR-XXXXXX?](docs/it/troubleshooting/error-reference.md).
+
+---
+
+## File: docs/it/troubleshooting/billing-errors.md
+
+# Problemi di pagamento e crediti mancanti
+
+## Prima di intervenire
+Se la conferma Shopify mostra **importo, valuta o periodicità inattesi**, non approvare l'addebito finché i termini non sono chiari.
+
+## Se hai già tentato il pagamento
+1. Apri le informazioni di fatturazione pertinenti nell'amministrazione Shopify.
+2. Torna in **Piani** su AdPilot e controlla il piano o il saldo dei crediti.
+3. Non ripetere l'acquisto solo perché la schermata non si è ancora aggiornata.
+4. Annota orario approssimativo, piano o quantità di crediti e messaggio/codice visualizzato.
+5. Usa il contatto ufficiale pubblicato da AdPilot per richiedere una verifica.
+
+Un assistente ChatGPT pubblico non può consultare fatture, carte, abbonamenti, acquisti o log. **Non inviare mai dati di carta, password o token Shopify in chat.**
+
+Vedi [Fatturazione Shopify: cosa controllare](docs/it/plans/billing-questions.md) e [Che cosa significa ERR-XXXXXX?](docs/it/troubleshooting/error-reference.md).
+
+---
+
+## File: docs/it/troubleshooting/error-reference.md
+
+# Che cosa significa ERR-XXXXXX?
+
+## Significato del codice
+Un codice `ERR-XXXXXX` è un **riferimento a un evento di errore dell'applicazione**, non una spiegazione pubblica della causa. La sua comparsa non dimostra che il problema dipenda da una specifica impostazione o da Shopify.
+
+## Cosa annotare
+1. Copia il codice completo.
+2. Indica la funzionalità in uso e l'azione eseguita.
+3. Annota data/ora approssimativa e testo visualizzato.
+4. Se il problema persiste, contatta il canale ufficiale di assistenza AdPilot con questi dettagli.
+
+Un assistente pubblico **non ha accesso ai log privati dell'applicazione** e non può ricostruire la causa dal solo codice.
+
+**Non** inviare password, token, chiavi segrete, dati clienti, report CSV privati completi o dettagli delle carte di pagamento. Non ripetere operazioni a pagamento o che consumano crediti solo per riprodurre l'errore.
+
+---
+
+## File: docs/it/privacy/privacy-and-data.md
+
+# Dati, autorizzazioni e privacy
+
+## Accesso a Shopify
+AdPilot richiede il permesso di **leggere le informazioni dei prodotti** del catalogo Shopify. Non è una richiesta di autorizzazione a modificarli.
+
+L'app utilizza i target del negozio e le informazioni salvate su simulazioni e campagne per offrire le proprie funzioni. Per l'ottimizzazione CSV fornisci tu un report esportato da Meta Ads Manager; questo percorso non collega direttamente il tuo account Meta.
+
+## Prima di condividere informazioni
+- Controlla che i report importati non contengano dati personali o privati superflui.
+- Non inviare credenziali, chiavi API, token Shopify, CSV privati completi o informazioni dei clienti a un assistente AI pubblico.
+- Per i dettagli legali sul trattamento, la conservazione e i diritti, consulta la **Privacy Policy ufficiale e aggiornata di AdPilot**, non soltanto questa guida sintetica.
+
+Un assistente ChatGPT o Claude basato solo sulla documentazione non può leggere il tuo negozio, consultare le campagne, verificare addebiti o agire al tuo posto.
+
+Per la rimozione dell'app, vedi [Disinstallazione di AdPilot e richieste sui dati](docs/it/privacy/uninstall-and-data.md).
+
+---
+
+## File: docs/it/privacy/uninstall-and-data.md
+
+# Disinstallazione di AdPilot e richieste sui dati
+
+## Disinstallare l'app
+Installazione e rimozione delle app sono gestite dall'**amministrazione Shopify**. Se desideri rimuovere AdPilot, usa la sezione di gestione delle app installate e segui le conferme mostrate da Shopify.
+
+La disinstallazione non equivale alla cancellazione di una singola simulazione o campagna. AdPilot gestisce eventi Shopify distinti per la disinstallazione e la richiesta di cancellazione dei dati del negozio.
+
+## Quando vengono cancellati i dati del negozio?
+Secondo Shopify, l'evento privacy **shop/redact** viene inviato **non prima di 48 ore dalla disinstallazione** (e non viene inviato se l'app viene reinstallata prima). AdPilot è progettata per eliminare i dati associati al negozio quando riceve ed elabora correttamente questo evento. **Non significa che i dati vengano cancellati al momento della disinstallazione o esattamente dopo 48 ore.**
+
+Per i singoli elementi salvati, la scomparsa dall'interfaccia è distinta dalla conservazione dei dati sottostanti. Consulta l'informativa privacy aggiornata per le condizioni dichiarate e il contatto ufficiale per conferme relative a un negozio specifico.
+
+Riferimento ufficiale: [Shopify — privacy e webhook](https://shopify.dev/docs/apps/build/compliance/privacy-law-compliance).
+
+## Richieste sui dati o sulla privacy
+1. Leggi la **Privacy Policy ufficiale e aggiornata di AdPilot**.
+2. Usa il contatto e le istruzioni indicati nella policy per richieste di accesso o cancellazione pertinenti.
+3. Identifica il negozio soltanto attraverso il canale ufficiale: non inserire dati privati in una chat AI pubblica.
+
+Non presumere che ogni record sia eliminato nello stesso istante della disinstallazione. Se ti serve una conferma relativa a un negozio, contatta il canale privacy ufficiale.
+
+---
+
+## File: docs/it/faq/faq-general.md
+
+# Domande frequenti: primi passi
+
+## AdPilot avvia le inserzioni Facebook o Instagram?
+No. AdPilot produce stime, piani e suggerimenti, non modifiche a campagne attive. Vedi [Che cos’è AdPilot?](docs/it/getting-started/overview.md).
+
+## Posso usarla senza collegare Meta?
+Sì per valutazione prodotti, simulazione e generazione AI nei piani abilitati. L'ottimizzazione usa un CSV esportato da Meta Ads Manager. Vedi [Come funziona Ottimizzazione Meta Ads](docs/it/optimizer/optimizer-overview.md).
+
+## AdPilot modifica i miei prodotti Shopify?
+L'app chiede accesso in lettura ai prodotti; le modifiche alle schede vanno fatte in Shopify. Vedi [Valutare i prodotti con Product Ad Score](docs/it/products/product-ad-score.md).
+
+## Quale piano include il Generatore AI?
+Starter e Pro. Free non comprende la generazione di campagne AI. Vedi [Accesso e crediti del Generatore AI](docs/it/ai-generator/ai-generator-access.md).
+
+## Posso cambiare lingua?
+Sì, seleziona EN o IT nell'interfaccia. Vedi [Navigazione e lingua](docs/it/getting-started/interface-and-language.md).
+
+## Dove trovo il prezzo ufficiale?
+Controlla importo, valuta e condizioni nella conferma Shopify prima di abbonarti. Vedi [Fatturazione Shopify: cosa controllare](docs/it/plans/billing-questions.md).
+
+---
+
+## File: docs/it/faq/faq-simulator-ai.md
+
+# Domande frequenti: Simulatore e AI
+
+## Una simulazione spende il mio budget pubblicitario?
+No. La simulazione stima risultati, non crea inserzioni e non addebita spesa pubblicitaria Meta. Vedi [Creare una simulazione pubblicitaria](docs/it/simulator/create-simulation.md).
+
+## Il ROAS stimato è garantito?
+No. È una previsione basata su ipotesi, non un profitto verificato o un ricavo futuro garantito. Vedi [Interpretare i risultati della simulazione](docs/it/simulator/simulation-results.md).
+
+## Perché non posso creare un'altra simulazione?
+Potresti aver raggiunto la quota mensile di Free o Starter. Eliminare una simulazione precedente non restituisce quota. Vedi [Risolvere errori e limiti del Simulatore](docs/it/troubleshooting/simulation-errors.md).
+
+## Se l'AI scrive una caratteristica sbagliata del prodotto?
+Controlla e correggi la proposta prima di utilizzarla manualmente in Meta Ads Manager. Vedi [Interpretare la campagna generata](docs/it/ai-generator/review-ai-output.md).
+
+## Se la generazione AI fallisce recupero automaticamente un credito?
+L'app tenta il riaccredito in caso di errore, ma per anomalie può essere necessario il supporto. Vedi [Risolvere i problemi del Generatore AI](docs/it/troubleshooting/ai-errors.md).
+
+---
+
+## File: docs/it/faq/faq-optimizer.md
+
+# Domande frequenti: Optimizer e CSV
+
+## Perché l'Optimizer è bloccato?
+Per creare un'ottimizzazione serve Pro. Vedi [Come funziona Ottimizzazione Meta Ads](docs/it/optimizer/optimizer-overview.md).
+
+## Posso caricare un file Excel?
+No: esporta un `.csv` UTF-8 con le colonne richieste. Vedi [Formato CSV e colonne obbligatorie](docs/it/optimizer/csv-requirements.md).
+
+## Perché mancano alcune colonne?
+L'esportazione Meta può usare intestazioni diverse oppure non includere pubblico/interesse o valore degli acquisti. Confronta tutte le 13 categorie obbligatorie. Vedi [Risolvere gli errori di importazione CSV](docs/it/troubleshooting/csv-errors.md).
+
+## AdPilot può modificare automaticamente le inserzioni?
+No. Fornisce suggerimenti che devi applicare in Meta Ads Manager. Vedi [Interpretare i consigli dell’Optimizer](docs/it/optimizer/optimizer-results.md).
+
+## Perché non posso effettuare subito un'altra ottimizzazione?
+Il percorso ordinario richiede almeno 72 ore tra round della stessa campagna. Vedi [Quando posso ottimizzare di nuovo?](docs/it/optimizer/optimization-cooldown.md).
+
+## ChatGPT può diagnosticare un codice ERR?
+Un assistente che usa soltanto la documentazione non può accedere ai log privati. Vedi [Che cosa significa ERR-XXXXXX?](docs/it/troubleshooting/error-reference.md).
+
+---
+
+## File: docs/it/glossary/glossary.md
+
+# Glossario pubblicitario
+
+## Termini pubblicitari
+- **Gruppo di inserzioni (Ad set):** insieme di annunci di una campagna Meta, con impostazioni comuni di pubblico, budget o distribuzione.
+- **Pubblico / targeting:** persone a cui si desidera mostrare la pubblicità.
+- **Impression:** totale delle visualizzazioni degli annunci, comprese le ripetizioni.
+- **Copertura (reach):** numero stimato di persone distinte raggiunte.
+- **Frequenza:** numero medio di impression per persona raggiunta.
+- **Clic:** interazioni conteggiate come clic dalla metrica selezionata nel report.
+- **CTR:** clic divisi per impression, espresso in percentuale. Esempio: 20 clic su 1.000 impression = 2%.
+- **CPC:** spesa divisa per clic. Esempio: 10 € / 20 clic = 0,50 € per clic.
+- **CPM:** costo per 1.000 impression. Esempio: 10 € per 1.000 impression = CPM di 10 €.
+- **Conversione:** risultato desiderato, per esempio acquisto o contatto; l'obiettivo modifica l'interpretazione dei risultati.
+- **CPA:** spesa per acquisizione.
+- **CPL:** spesa per contatto (lead).
+- **ROAS:** ricavi attribuiti alle inserzioni divisi per spesa. Esempio: 200 € di ricavi attribuiti / 100 € di spesa = ROAS 2×; non è un utile.
+- **Product Ad Score:** indicatore 0–100 della completezza della scheda prodotto, non una garanzia pubblicitaria.
+- **Simulazione:** previsione ipotetica, non report di una campagna Meta attiva.
+- **Proposta AI:** piano suggerito che il commerciante deve esaminare e applicare manualmente.
+- **Round di ottimizzazione:** analisi salvata di un report esportato da Meta Ads.
+- **CSV:** formato tabellare di testo con colonne separate da delimitatori.
+- **UTF-8:** codifica di testo accettata per l'importazione CSV.
+- **Credito di generazione:** unità disponibile per richiedere una proposta di campagna AI.
+- **Cooldown:** intervallo di attesa prima di ripetere un'operazione.
+
+Vedi [Interpretare i risultati della simulazione](docs/it/simulator/simulation-results.md), [Valutare i prodotti con Product Ad Score](docs/it/products/product-ad-score.md) e [Come funziona Ottimizzazione Meta Ads](docs/it/optimizer/optimizer-overview.md).

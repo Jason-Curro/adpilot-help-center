@@ -1,0 +1,166 @@
+{
+    "version":  1,
+    "errors":  [
+                   {
+                       "id":  "csv-no-file",
+                       "recommended_action":  {
+                                                  "en":  "Choose a CSV file",
+                                                  "it":  "Seleziona un CSV"
+                                              },
+                       "article_id":  "csv-errors"
+                   },
+                   {
+                       "id":  "csv-extension",
+                       "recommended_action":  {
+                                                  "en":  "Use a .csv file, not an Excel workbook",
+                                                  "it":  "Utilizza un file .csv, non un file Excel"
+                                              },
+                       "article_id":  "csv-errors"
+                   },
+                   {
+                       "id":  "csv-too-small",
+                       "recommended_action":  {
+                                                  "en":  "Export a nonempty report with at least 1 KiB",
+                                                  "it":  "Esporta un report di almeno 1 KiB con dati"
+                                              },
+                       "article_id":  "csv-errors"
+                   },
+                   {
+                       "id":  "csv-too-large",
+                       "recommended_action":  {
+                                                  "en":  "Export a report smaller than or equal to 10 MiB",
+                                                  "it":  "Esporta un report di massimo 10 MiB"
+                                              },
+                       "article_id":  "csv-errors"
+                   },
+                   {
+                       "id":  "csv-utf16",
+                       "recommended_action":  {
+                                                  "en":  "Re-export using UTF-8 encoding",
+                                                  "it":  "Riesporta con codifica UTF-8"
+                                              },
+                       "article_id":  "csv-errors"
+                   },
+                   {
+                       "id":  "csv-encoding",
+                       "recommended_action":  {
+                                                  "en":  "Check that the file is valid UTF-8",
+                                                  "it":  "Controlla che il file sia UTF-8 valido"
+                                              },
+                       "article_id":  "csv-errors"
+                   },
+                   {
+                       "id":  "csv-delimiter",
+                       "recommended_action":  {
+                                                  "en":  "Use comma or semicolon",
+                                                  "it":  "Usa virgola o punto e virgola"
+                                              },
+                       "article_id":  "csv-errors"
+                   },
+                   {
+                       "id":  "csv-missing-columns",
+                       "recommended_action":  {
+                                                  "en":  "Compare all required report headers",
+                                                  "it":  "Confronta tutte le intestazioni obbligatorie"
+                                              },
+                       "article_id":  "csv-errors"
+                   },
+                   {
+                       "id":  "csv-rows",
+                       "recommended_action":  {
+                                                  "en":  "Reduce the report to at most 50,000 data rows",
+                                                  "it":  "Riduci il report a massimo 50.000 righe"
+                                              },
+                       "article_id":  "csv-errors"
+                   },
+                   {
+                       "id":  "csv-columns",
+                       "recommended_action":  {
+                                                  "en":  "Reduce the report to at most 200 columns",
+                                                  "it":  "Riduci il report a massimo 200 colonne"
+                                              },
+                       "article_id":  "csv-errors"
+                   },
+                   {
+                       "id":  "csv-empty",
+                       "recommended_action":  {
+                                                  "en":  "Verify the report contains usable rows",
+                                                  "it":  "Verifica che il report contenga righe valide"
+                                              },
+                       "article_id":  "csv-errors"
+                   },
+                   {
+                       "id":  "csv-not-text",
+                       "recommended_action":  {
+                                                  "en":  "Export a plain-text CSV from Meta",
+                                                  "it":  "Esporta un CSV di testo da Meta"
+                                              },
+                       "article_id":  "csv-errors"
+                   },
+                   {
+                       "id":  "simulator-quota",
+                       "recommended_action":  {
+                                                  "en":  "Check calendar-month simulation quota",
+                                                  "it":  "Controlla la quota delle simulazioni del mese"
+                                              },
+                       "article_id":  "simulation-errors"
+                   },
+                   {
+                       "id":  "simulator-input",
+                       "recommended_action":  {
+                                                  "en":  "Use valid budget, duration, sector, country and objective",
+                                                  "it":  "Usa budget, durata, settore, paese e obiettivo validi"
+                                              },
+                       "article_id":  "simulation-errors"
+                   },
+                   {
+                       "id":  "ai-quota",
+                       "recommended_action":  {
+                                                  "en":  "Check plan and available generations",
+                                                  "it":  "Controlla piano e generazioni disponibili"
+                                              },
+                       "article_id":  "ai-errors"
+                   },
+                   {
+                       "id":  "ai-product",
+                       "recommended_action":  {
+                                                  "en":  "Select an existing active product",
+                                                  "it":  "Seleziona un prodotto attivo esistente"
+                                              },
+                       "article_id":  "ai-errors"
+                   },
+                   {
+                       "id":  "optimizer-plan",
+                       "recommended_action":  {
+                                                  "en":  "Creating an optimization requires Pro",
+                                                  "it":  "Per creare un’ottimizzazione serve Pro"
+                                              },
+                       "article_id":  "optimizer-errors"
+                   },
+                   {
+                       "id":  "optimizer-campaign",
+                       "recommended_action":  {
+                                                  "en":  "Choose a saved AI campaign",
+                                                  "it":  "Seleziona una campagna AI salvata"
+                                              },
+                       "article_id":  "optimizer-errors"
+                   },
+                   {
+                       "id":  "billing-confirmation",
+                       "recommended_action":  {
+                                                  "en":  "Check the live Shopify checkout terms before approving",
+                                                  "it":  "Controlla i termini Shopify prima di approvare"
+                                              },
+                       "article_id":  "billing-errors"
+                   },
+                   {
+                       "id":  "unexpected-error-reference",
+                       "recommended_action":  {
+                                                  "en":  "Record ERR code, action and time; official support can review",
+                                                  "it":  "Annota codice ERR, azione e orario; contatta il supporto ufficiale"
+                                              },
+                       "article_id":  "error-reference"
+                   }
+               ],
+    "notice":  "IDs are documentation categories, not necessarily user-visible error codes."
+}

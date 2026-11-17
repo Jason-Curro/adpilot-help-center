@@ -1,0 +1,34 @@
+{
+  "disclaimer_en": "Plan-coded limits refer to the reviewed implementation; confirm current entitlements in the live Plans screen. No prices are supplied.",
+  "disclaimer_it": "I limiti sono quelli della versione esaminata; verificare le condizioni correnti nella pagina Piani. Nessun prezzo riportato.",
+  "plans": {
+    "FREE": {
+      "product_scores_displayed": 5,
+      "simulations_per_calendar_month": 3,
+      "ai_generations_per_calendar_month": 0,
+      "advanced_simulation_metrics": false,
+      "can_create_optimizations": false,
+      "can_buy_extra_generations": false
+    },
+    "STARTER": {
+      "product_scores_displayed": 50,
+      "simulations_per_calendar_month": 30,
+      "ai_generations_per_calendar_month": 2,
+      "advanced_simulation_metrics": true,
+      "can_create_optimizations": false,
+      "can_buy_extra_generations": false
+    },
+    "PRO": {
+      "product_scores_displayed_per_load": 250,
+      "product_score_plan_quota": null,
+      "simulations_per_calendar_month": null,
+      "ai_generations_per_calendar_month": 20,
+      "advanced_simulation_metrics": true,
+      "can_create_optimizations": true,
+      "can_buy_extra_generations": true
+    }
+  },
+  "manual_intervention_required_for_meta_ads": true,
+  "price_currency_verified": false,
+  "csv_export_feature_verified": false
+}

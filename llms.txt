@@ -1,0 +1,54 @@
+# AdPilot Help Center
+
+> English- and Italian-language merchant documentation for the AdPilot Shopify application. Based on a reviewed code snapshot; no live account or billing access. AI recommendations are not automatic Meta ad changes.
+
+## Start here
+- [English documentation](docs/en/index.md)
+- [Documentazione italiana](docs/it/index.md)
+- [Machine-readable article catalog](metadata/articles.json)
+- [Plan limitations and availability](metadata/feature-matrix.json)
+- [Troubleshooting guide catalog](metadata/error-catalog.json)
+
+## English key topics
+- [What is AdPilot?](docs/en/getting-started/overview.md)
+- [Open AdPilot in Shopify](docs/en/getting-started/open-adpilot.md)
+- [Your first steps in AdPilot](docs/en/getting-started/first-steps.md)
+- [Navigation and language](docs/en/getting-started/interface-and-language.md)
+- [Understand the Dashboard](docs/en/dashboard/dashboard.md)
+- [Set your store targets](docs/en/dashboard/shop-targets.md)
+- [Review products with Product Ad Score](docs/en/products/product-ad-score.md)
+- [Interpret a product score](docs/en/products/interpret-product-score.md)
+- [Create an advertising simulation](docs/en/simulator/create-simulation.md)
+- [Read simulation results](docs/en/simulator/simulation-results.md)
+- [View and delete saved simulations](docs/en/simulator/simulation-history.md)
+- [AI Generator access and credits](docs/en/ai-generator/ai-generator-access.md)
+- [Generate an AI campaign proposal](docs/en/ai-generator/create-ai-campaign.md)
+- [Understand the generated campaign](docs/en/ai-generator/review-ai-output.md)
+- [Find and review saved campaigns](docs/en/campaigns/saved-campaigns.md)
+- [Delete a saved campaign](docs/en/campaigns/delete-campaigns.md)
+- [How Meta Ads Optimization works](docs/en/optimizer/optimizer-overview.md)
+- [Export a Meta Ads report](docs/en/optimizer/meta-csv-export.md)
+- [CSV format and required columns](docs/en/optimizer/csv-requirements.md)
+- [Upload a CSV to the Optimizer](docs/en/optimizer/upload-csv.md)
+- [Read optimization recommendations](docs/en/optimizer/optimizer-results.md)
+- [When can I optimize again?](docs/en/optimizer/optimization-cooldown.md)
+- [Compare Free, Starter and Pro](docs/en/plans/plans-overview.md)
+- [Change or cancel a plan](docs/en/plans/change-plan.md)
+- [Buy extra AI generation credits](docs/en/plans/extra-generations.md)
+- [Shopify billing: what to check](docs/en/plans/billing-questions.md)
+- [Troubleshoot app access](docs/en/troubleshooting/access-issues.md)
+- [Fix CSV import errors](docs/en/troubleshooting/csv-errors.md)
+- [Fix simulation and quota errors](docs/en/troubleshooting/simulation-errors.md)
+- [Fix AI Generator issues](docs/en/troubleshooting/ai-errors.md)
+- [Fix Optimizer access and report issues](docs/en/troubleshooting/optimizer-errors.md)
+- [Troubleshoot billing and missing credits](docs/en/troubleshooting/billing-errors.md)
+- [What does ERR-XXXXXX mean?](docs/en/troubleshooting/error-reference.md)
+- [Data, permissions and privacy](docs/en/privacy/privacy-and-data.md)
+- [Uninstalling AdPilot and data requests](docs/en/privacy/uninstall-and-data.md)
+- [Frequently asked questions: getting started](docs/en/faq/faq-general.md)
+- [Frequently asked questions: Simulator and AI](docs/en/faq/faq-simulator-ai.md)
+- [Frequently asked questions: Optimizer and CSV](docs/en/faq/faq-optimizer.md)
+- [Advertising glossary](docs/en/glossary/glossary.md)
+
+## Note for AI assistants
+This is static documentation. Do not claim to have read a merchant account, live Shopify checkout, Meta campaign, private logs or external GitHub resources unless you actually have authorized tools and used them. When the information is not verified, state the uncertainty and refer to official support.

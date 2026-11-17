@@ -1,0 +1,1163 @@
+{
+    "schema_version":  1,
+    "published_at":  "2026-11-17",
+    "source_reviewed_at":  "2026-11-17",
+    "default_locale":  "en",
+    "articles":  [
+                     {
+                         "id":  "overview",
+                         "category":  "getting-started",
+                         "feature":  "getting-started",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "adpilot",
+                                          "shopify",
+                                          "meta",
+                                          "facebook",
+                                          "instagram",
+                                          "start"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "What is AdPilot?",
+                                                    "description":  "An introduction to AdPilot and what it can and cannot do.",
+                                                    "path":  "docs/en/getting-started/overview.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Che cos’è AdPilot?",
+                                                    "description":  "Introduzione ad AdPilot e ai suoi limiti.",
+                                                    "path":  "docs/it/getting-started/overview.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "open-adpilot",
+                         "category":  "getting-started",
+                         "feature":  "getting-started",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "open",
+                                          "login",
+                                          "access",
+                                          "install",
+                                          "shopify"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Open AdPilot in Shopify",
+                                                    "description":  "How to reach the installed app from Shopify admin.",
+                                                    "path":  "docs/en/getting-started/open-adpilot.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Aprire AdPilot in Shopify",
+                                                    "description":  "Come accedere all’app installata dall’amministrazione Shopify.",
+                                                    "path":  "docs/it/getting-started/open-adpilot.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "first-steps",
+                         "category":  "getting-started",
+                         "feature":  "getting-started",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "onboarding",
+                                          "guide",
+                                          "first steps",
+                                          "setup"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Your first steps in AdPilot",
+                                                    "description":  "A beginner-friendly four-step setup path.",
+                                                    "path":  "docs/en/getting-started/first-steps.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Primi passi con AdPilot",
+                                                    "description":  "Percorso introduttivo in quattro passaggi.",
+                                                    "path":  "docs/it/getting-started/first-steps.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "interface-and-language",
+                         "category":  "getting-started",
+                         "feature":  "getting-started",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "language",
+                                          "english",
+                                          "italian",
+                                          "navigation",
+                                          "menu"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Navigation and language",
+                                                    "description":  "Find the main AdPilot screens and change interface language.",
+                                                    "path":  "docs/en/getting-started/interface-and-language.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Navigazione e lingua",
+                                                    "description":  "Individua le schermate principali e cambia lingua.",
+                                                    "path":  "docs/it/getting-started/interface-and-language.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "dashboard",
+                         "category":  "dashboard",
+                         "feature":  "dashboard",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "dashboard",
+                                          "home",
+                                          "usage",
+                                          "status"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Understand the Dashboard",
+                                                    "description":  "What the Dashboard shows and where to go next.",
+                                                    "path":  "docs/en/dashboard/dashboard.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Capire la Dashboard",
+                                                    "description":  "Quali dati mostra la Dashboard e come proseguire.",
+                                                    "path":  "docs/it/dashboard/dashboard.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "shop-targets",
+                         "category":  "dashboard",
+                         "feature":  "dashboard",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "targets",
+                                          "roas",
+                                          "cpa",
+                                          "cpl",
+                                          "budget",
+                                          "goals"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Set your store targets",
+                                                    "description":  "Save optional business targets used as guidance in AdPilot.",
+                                                    "path":  "docs/en/dashboard/shop-targets.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Impostare gli obiettivi del negozio",
+                                                    "description":  "Salvare gli obiettivi economici di riferimento del negozio.",
+                                                    "path":  "docs/it/dashboard/shop-targets.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "product-ad-score",
+                         "category":  "products",
+                         "feature":  "products",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "product",
+                                          "score",
+                                          "catalog",
+                                          "listing",
+                                          "products"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Review products with Product Ad Score",
+                                                    "description":  "See which product listings may need better information.",
+                                                    "path":  "docs/en/products/product-ad-score.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Valutare i prodotti con Product Ad Score",
+                                                    "description":  "Individua le schede prodotto da migliorare.",
+                                                    "path":  "docs/it/products/product-ad-score.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "interpret-product-score",
+                         "category":  "products",
+                         "feature":  "products",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "score",
+                                          "ranking",
+                                          "rating",
+                                          "product"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Interpret a product score",
+                                                    "description":  "Understand score ranges and practical ways to improve a listing.",
+                                                    "path":  "docs/en/products/interpret-product-score.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Interpretare il punteggio di un prodotto",
+                                                    "description":  "Capire le fasce di punteggio e come migliorare una scheda.",
+                                                    "path":  "docs/it/products/interpret-product-score.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "create-simulation",
+                         "category":  "simulator",
+                         "feature":  "simulator",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "simulator",
+                                          "simulation",
+                                          "budget",
+                                          "duration",
+                                          "forecast"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Create an advertising simulation",
+                                                    "description":  "Estimate possible outcomes for a hypothetical advertising campaign.",
+                                                    "path":  "docs/en/simulator/create-simulation.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Creare una simulazione pubblicitaria",
+                                                    "description":  "Stimare i possibili risultati di una campagna ipotetica.",
+                                                    "path":  "docs/it/simulator/create-simulation.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "simulation-results",
+                         "category":  "simulator",
+                         "feature":  "simulator",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "results",
+                                          "roas",
+                                          "ctr",
+                                          "cpa",
+                                          "reach",
+                                          "impressions"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Read simulation results",
+                                                    "description":  "How to understand impressions, clicks and forecasted revenue.",
+                                                    "path":  "docs/en/simulator/simulation-results.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Interpretare i risultati della simulazione",
+                                                    "description":  "Come leggere impression, clic e ricavi stimati.",
+                                                    "path":  "docs/it/simulator/simulation-results.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "simulation-history",
+                         "category":  "simulator",
+                         "feature":  "simulator",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "delete",
+                                          "history",
+                                          "saved",
+                                          "simulations"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "View and delete saved simulations",
+                                                    "description":  "Find previous simulations and understand what deletion does.",
+                                                    "path":  "docs/en/simulator/simulation-history.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Consultare ed eliminare le simulazioni",
+                                                    "description":  "Ritrovare le simulazioni e capire cosa comporta eliminarle.",
+                                                    "path":  "docs/it/simulator/simulation-history.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "ai-generator-access",
+                         "category":  "ai-generator",
+                         "feature":  "ai-generator",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "ai",
+                                          "credits",
+                                          "quota",
+                                          "starter",
+                                          "pro"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "AI Generator access and credits",
+                                                    "description":  "Check eligible plans and monthly AI generation allowances.",
+                                                    "path":  "docs/en/ai-generator/ai-generator-access.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Accesso e crediti del Generatore AI",
+                                                    "description":  "Verifica piani abilitati e quote mensili AI.",
+                                                    "path":  "docs/it/ai-generator/ai-generator-access.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "create-ai-campaign",
+                         "category":  "ai-generator",
+                         "feature":  "ai-generator",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "generate",
+                                          "ai",
+                                          "campaign",
+                                          "product",
+                                          "creative",
+                                          "targeting"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Generate an AI campaign proposal",
+                                                    "description":  "Create a campaign plan for an active Shopify product.",
+                                                    "path":  "docs/en/ai-generator/create-ai-campaign.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Generare una proposta di campagna AI",
+                                                    "description":  "Creare un piano pubblicitario per un prodotto Shopify attivo.",
+                                                    "path":  "docs/it/ai-generator/create-ai-campaign.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "review-ai-output",
+                         "category":  "ai-generator",
+                         "feature":  "ai-generator",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "ai",
+                                          "output",
+                                          "copy",
+                                          "creative",
+                                          "policy",
+                                          "targeting"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Understand the generated campaign",
+                                                    "description":  "Review a suggested campaign before applying anything in Meta.",
+                                                    "path":  "docs/en/ai-generator/review-ai-output.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Interpretare la campagna generata",
+                                                    "description":  "Esaminare la proposta AI prima di usarla su Meta.",
+                                                    "path":  "docs/it/ai-generator/review-ai-output.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "saved-campaigns",
+                         "category":  "campaigns",
+                         "feature":  "campaigns",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "campaign",
+                                          "history",
+                                          "saved",
+                                          "ai"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Find and review saved campaigns",
+                                                    "description":  "Open previously generated campaign plans and related analyses.",
+                                                    "path":  "docs/en/campaigns/saved-campaigns.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Trovare e consultare le campagne salvate",
+                                                    "description":  "Aprire i piani generati in precedenza e le analisi collegate.",
+                                                    "path":  "docs/it/campaigns/saved-campaigns.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "delete-campaigns",
+                         "category":  "campaigns",
+                         "feature":  "campaigns",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "delete",
+                                          "campaign",
+                                          "remove",
+                                          "history"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Delete a saved campaign",
+                                                    "description":  "Remove a campaign proposal from your normal history.",
+                                                    "path":  "docs/en/campaigns/delete-campaigns.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Eliminare una campagna salvata",
+                                                    "description":  "Rimuovere una proposta dall’elenco ordinario.",
+                                                    "path":  "docs/it/campaigns/delete-campaigns.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "optimizer-overview",
+                         "category":  "optimizer",
+                         "feature":  "optimizer",
+                         "plans":  [
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "optimizer",
+                                          "csv",
+                                          "meta",
+                                          "performance",
+                                          "pro"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "How Meta Ads Optimization works",
+                                                    "description":  "Understand what data the Optimizer uses and its requirements.",
+                                                    "path":  "docs/en/optimizer/optimizer-overview.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Come funziona Ottimizzazione Meta Ads",
+                                                    "description":  "Capire quali dati usa l’Optimizer e quali requisiti richiede.",
+                                                    "path":  "docs/it/optimizer/optimizer-overview.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "meta-csv-export",
+                         "category":  "optimizer",
+                         "feature":  "optimizer",
+                         "plans":  [
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "meta",
+                                          "ads manager",
+                                          "export",
+                                          "csv",
+                                          "report"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Export a Meta Ads report",
+                                                    "description":  "Prepare a report for the AdPilot Optimizer.",
+                                                    "path":  "docs/en/optimizer/meta-csv-export.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Esportare un report da Meta Ads Manager",
+                                                    "description":  "Preparare il report destinato all’Optimizer di AdPilot.",
+                                                    "path":  "docs/it/optimizer/meta-csv-export.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "csv-requirements",
+                         "category":  "optimizer",
+                         "feature":  "optimizer",
+                         "plans":  [
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "csv",
+                                          "utf8",
+                                          "semicolon",
+                                          "columns",
+                                          "headers",
+                                          "limit"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "CSV format and required columns",
+                                                    "description":  "Accepted size, encoding, separators and required report fields.",
+                                                    "path":  "docs/en/optimizer/csv-requirements.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Formato CSV e colonne obbligatorie",
+                                                    "description":  "Dimensioni, codifica, separatori e campi obbligatori del report.",
+                                                    "path":  "docs/it/optimizer/csv-requirements.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "upload-csv",
+                         "category":  "optimizer",
+                         "feature":  "optimizer",
+                         "plans":  [
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "upload",
+                                          "csv",
+                                          "optimizer",
+                                          "analyze"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Upload a CSV to the Optimizer",
+                                                    "description":  "Submit a compatible CSV for a saved AI campaign.",
+                                                    "path":  "docs/en/optimizer/upload-csv.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Caricare un CSV nell’Optimizer",
+                                                    "description":  "Inviare un CSV compatibile per una campagna AI salvata.",
+                                                    "path":  "docs/it/optimizer/upload-csv.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "optimizer-results",
+                         "category":  "optimizer",
+                         "feature":  "optimizer",
+                         "plans":  [
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "optimizer",
+                                          "analysis",
+                                          "recommendation",
+                                          "roas",
+                                          "ad sets"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Read optimization recommendations",
+                                                    "description":  "Understand suggested actions without confusing them with live changes.",
+                                                    "path":  "docs/en/optimizer/optimizer-results.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Interpretare i consigli dell’Optimizer",
+                                                    "description":  "Capire i suggerimenti senza confonderli con modifiche effettive.",
+                                                    "path":  "docs/it/optimizer/optimizer-results.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "optimization-cooldown",
+                         "category":  "optimizer",
+                         "feature":  "optimizer",
+                         "plans":  [
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "optimizer",
+                                          "72 hours",
+                                          "cooldown",
+                                          "wait"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "When can I optimize again?",
+                                                    "description":  "The 72-hour waiting period between optimization rounds.",
+                                                    "path":  "docs/en/optimizer/optimization-cooldown.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Quando posso ottimizzare di nuovo?",
+                                                    "description":  "L’intervallo previsto di 72 ore fra le ottimizzazioni.",
+                                                    "path":  "docs/it/optimizer/optimization-cooldown.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "plans-overview",
+                         "category":  "plans",
+                         "feature":  "plans",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "plans",
+                                          "free",
+                                          "starter",
+                                          "pro",
+                                          "features",
+                                          "limits",
+                                          "pricing"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Compare Free, Starter and Pro",
+                                                    "description":  "Compare included features, limits and published Shopify pricing.",
+                                                    "path":  "docs/en/plans/plans-overview.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Confrontare Free, Starter e Pro",
+                                                    "description":  "Confronta funzioni, limiti e prezzi pubblicati su Shopify.",
+                                                    "path":  "docs/it/plans/plans-overview.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "change-plan",
+                         "category":  "plans",
+                         "feature":  "plans",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "upgrade",
+                                          "downgrade",
+                                          "cancel",
+                                          "subscription",
+                                          "shopify"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Change or cancel a plan",
+                                                    "description":  "Use Shopify billing confirmation when changing subscriptions.",
+                                                    "path":  "docs/en/plans/change-plan.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Cambiare o annullare un piano",
+                                                    "description":  "Gestire le variazioni di abbonamento tramite Shopify.",
+                                                    "path":  "docs/it/plans/change-plan.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "extra-generations",
+                         "category":  "plans",
+                         "feature":  "plans",
+                         "plans":  [
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "credits",
+                                          "one-time",
+                                          "extra",
+                                          "generations",
+                                          "purchase"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Buy extra AI generation credits",
+                                                    "description":  "Understand Pro-only additional AI generation purchases.",
+                                                    "path":  "docs/en/plans/extra-generations.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Acquistare crediti AI aggiuntivi",
+                                                    "description":  "Come funzionano le generazioni extra disponibili su Pro.",
+                                                    "path":  "docs/it/plans/extra-generations.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "billing-questions",
+                         "category":  "plans",
+                         "feature":  "plans",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "billing",
+                                          "currency",
+                                          "price",
+                                          "charge",
+                                          "invoice",
+                                          "shopify"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Shopify billing: what to check",
+                                                    "description":  "Review charges, currency and confirmation screens.",
+                                                    "path":  "docs/en/plans/billing-questions.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Fatturazione Shopify: cosa controllare",
+                                                    "description":  "Controllare addebiti, valuta e schermate di conferma.",
+                                                    "path":  "docs/it/plans/billing-questions.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "access-issues",
+                         "category":  "troubleshooting",
+                         "feature":  "troubleshooting",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "login",
+                                          "access",
+                                          "missing",
+                                          "authentication",
+                                          "shopify"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Troubleshoot app access",
+                                                    "description":  "Safe checks when AdPilot is missing or not loading in Shopify.",
+                                                    "path":  "docs/en/troubleshooting/access-issues.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Risolvere i problemi di accesso",
+                                                    "description":  "Controlli sicuri se AdPilot non appare o non si apre.",
+                                                    "path":  "docs/it/troubleshooting/access-issues.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "csv-errors",
+                         "category":  "troubleshooting",
+                         "feature":  "troubleshooting",
+                         "plans":  [
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "csv",
+                                          "error",
+                                          "missing column",
+                                          "encoding",
+                                          "file"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Fix CSV import errors",
+                                                    "description":  "Diagnose common CSV file rejection messages.",
+                                                    "path":  "docs/en/troubleshooting/csv-errors.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Risolvere gli errori di importazione CSV",
+                                                    "description":  "Capire perché il file CSV viene rifiutato.",
+                                                    "path":  "docs/it/troubleshooting/csv-errors.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "simulation-errors",
+                         "category":  "troubleshooting",
+                         "feature":  "troubleshooting",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "simulator",
+                                          "quota",
+                                          "invalid",
+                                          "budget",
+                                          "duration"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Fix simulation and quota errors",
+                                                    "description":  "Handle rejected inputs and monthly simulation limits.",
+                                                    "path":  "docs/en/troubleshooting/simulation-errors.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Risolvere errori e limiti del Simulatore",
+                                                    "description":  "Gestire parametri non validi e quote mensili.",
+                                                    "path":  "docs/it/troubleshooting/simulation-errors.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "ai-errors",
+                         "category":  "troubleshooting",
+                         "feature":  "troubleshooting",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "ai",
+                                          "error",
+                                          "credit",
+                                          "product",
+                                          "generator"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Fix AI Generator issues",
+                                                    "description":  "Checks for access, inputs, products and generation failures.",
+                                                    "path":  "docs/en/troubleshooting/ai-errors.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Risolvere i problemi del Generatore AI",
+                                                    "description":  "Controlli su piano, prodotti, parametri e generazione.",
+                                                    "path":  "docs/it/troubleshooting/ai-errors.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "optimizer-errors",
+                         "category":  "troubleshooting",
+                         "feature":  "troubleshooting",
+                         "plans":  [
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "optimizer",
+                                          "error",
+                                          "locked",
+                                          "csv",
+                                          "cooldown"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Fix Optimizer access and report issues",
+                                                    "description":  "Check plan eligibility, campaigns, waiting time and reports.",
+                                                    "path":  "docs/en/troubleshooting/optimizer-errors.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Risolvere i problemi dell’Optimizer",
+                                                    "description":  "Controlli su piano, campagne, attese e report.",
+                                                    "path":  "docs/it/troubleshooting/optimizer-errors.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "billing-errors",
+                         "category":  "troubleshooting",
+                         "feature":  "troubleshooting",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "billing",
+                                          "price",
+                                          "error",
+                                          "credits",
+                                          "charge",
+                                          "checkout"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Troubleshoot billing and missing credits",
+                                                    "description":  "What to do when checkout or entitlements appear wrong.",
+                                                    "path":  "docs/en/troubleshooting/billing-errors.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Problemi di pagamento e crediti mancanti",
+                                                    "description":  "Come agire se checkout, piano o crediti sembrano errati.",
+                                                    "path":  "docs/it/troubleshooting/billing-errors.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "error-reference",
+                         "category":  "troubleshooting",
+                         "feature":  "troubleshooting",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "err",
+                                          "error code",
+                                          "logs",
+                                          "support",
+                                          "troubleshooting"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "What does ERR-XXXXXX mean?",
+                                                    "description":  "Handle error reference codes without revealing sensitive data.",
+                                                    "path":  "docs/en/troubleshooting/error-reference.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Che cosa significa ERR-XXXXXX?",
+                                                    "description":  "Come gestire i codici di riferimento senza esporre dati.",
+                                                    "path":  "docs/it/troubleshooting/error-reference.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "privacy-and-data",
+                         "category":  "privacy",
+                         "feature":  "privacy",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "privacy",
+                                          "data",
+                                          "permissions",
+                                          "shopify",
+                                          "meta"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Data, permissions and privacy",
+                                                    "description":  "What AdPilot needs from Shopify and what public support can access.",
+                                                    "path":  "docs/en/privacy/privacy-and-data.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Dati, autorizzazioni e privacy",
+                                                    "description":  "Quali dati usa AdPilot e cosa può vedere l’assistenza pubblica.",
+                                                    "path":  "docs/it/privacy/privacy-and-data.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "uninstall-and-data",
+                         "category":  "privacy",
+                         "feature":  "privacy",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "uninstall",
+                                          "delete",
+                                          "retention",
+                                          "privacy",
+                                          "shopify"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Uninstalling AdPilot and data requests",
+                                                    "description":  "Understand uninstalling and where to find the privacy policy.",
+                                                    "path":  "docs/en/privacy/uninstall-and-data.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Disinstallazione di AdPilot e richieste sui dati",
+                                                    "description":  "Comprendere disinstallazione e richieste di cancellazione.",
+                                                    "path":  "docs/it/privacy/uninstall-and-data.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "faq-general",
+                         "category":  "faq",
+                         "feature":  "faq",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "faq",
+                                          "shopify",
+                                          "plans",
+                                          "meta",
+                                          "getting started"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Frequently asked questions: getting started",
+                                                    "description":  "Answers to common questions about AdPilot and its plans.",
+                                                    "path":  "docs/en/faq/faq-general.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Domande frequenti: primi passi",
+                                                    "description":  "Risposte alle domande più comuni su AdPilot e i piani.",
+                                                    "path":  "docs/it/faq/faq-general.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "faq-simulator-ai",
+                         "category":  "faq",
+                         "feature":  "faq",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "faq",
+                                          "simulation",
+                                          "roas",
+                                          "ai",
+                                          "credits"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Frequently asked questions: Simulator and AI",
+                                                    "description":  "Answers about forecasts, limits and generated campaign plans.",
+                                                    "path":  "docs/en/faq/faq-simulator-ai.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Domande frequenti: Simulatore e AI",
+                                                    "description":  "Risposte su previsioni, quote e campagne generate.",
+                                                    "path":  "docs/it/faq/faq-simulator-ai.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "faq-optimizer",
+                         "category":  "faq",
+                         "feature":  "faq",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "faq",
+                                          "csv",
+                                          "optimizer",
+                                          "error",
+                                          "72 hours"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Frequently asked questions: Optimizer and CSV",
+                                                    "description":  "Answers to common report and optimization questions.",
+                                                    "path":  "docs/en/faq/faq-optimizer.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Domande frequenti: Optimizer e CSV",
+                                                    "description":  "Risposte ai problemi frequenti di report e ottimizzazione.",
+                                                    "path":  "docs/it/faq/faq-optimizer.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     },
+                     {
+                         "id":  "glossary",
+                         "category":  "glossary",
+                         "feature":  "glossary",
+                         "plans":  [
+                                       "FREE",
+                                       "STARTER",
+                                       "PRO"
+                                   ],
+                         "keywords":  [
+                                          "glossary",
+                                          "definitions",
+                                          "roas",
+                                          "ctr",
+                                          "cpc",
+                                          "cpm"
+                                      ],
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Advertising glossary",
+                                                    "description":  "Plain-language explanations of the terms used in AdPilot.",
+                                                    "path":  "docs/en/glossary/glossary.md"
+                                                },
+                                         "it":  {
+                                                    "title":  "Glossario pubblicitario",
+                                                    "description":  "Definizioni semplici dei termini usati da AdPilot.",
+                                                    "path":  "docs/it/glossary/glossary.md"
+                                                }
+                                     },
+                         "last_reviewed":  "2026-11-17"
+                     }
+                 ]
+}
